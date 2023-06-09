@@ -1,7 +1,9 @@
+import React from 'react';
+
 function Signup() {
     return (
       <div>
-        so hey guys this is my website what do you think
+        so hey guys this is my signup page what do you think
       </div>
     );
   }

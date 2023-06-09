@@ -1,10 +1,10 @@
 import React from 'react';
-import './App.css';
+import Login from './components/login/login';
 
 function App() {
   return (
     <div>
-      so hey guys this is my website what do you think
+      <Login />
     </div>
   );
 }
