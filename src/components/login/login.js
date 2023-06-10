@@ -22,8 +22,9 @@ function Login() {
         <section className='signup'>
           <h1 className='newTitle'>Novo aqui?</h1>
           <p className='aboutText'>
-            Crie uma conta e informe-se de maneira 
-            clara sobre sua alimentação
+            Crie uma conta e informe-se de 
+            <br />
+            maneira clara sobre sua alimentação
           </p>
           <button className='signUpButton'>Cadastre-se</button>
         </section>

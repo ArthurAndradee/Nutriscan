@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Atkinson+Hyperlegible&family=Commissioner&family=Overlock+SC&display=swap');
+
 div {
     display: flex;
 
@@ -52,20 +54,34 @@ input {
 }
 
 .signup {
-    border: 1px solid darkblue;
-
     width: 75%;
     height: 100vh;
+
+    background-image: url(https://i.imgur.com/MRIbdQN.png);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
 }
 
 .newTitle {
+    width: 50%;
 
+    margin-left: 40%;
+    margin-top: 30%;
 }
 
 .aboutText {
+    width: 70%;
 
+    margin-left: 17%;
+    margin-top: 6%;
+
+    text-align: center;
 }
 
 .signUpButton {
+    width: 60%;
 
+    margin-left: 23%;
+    margin-top: 12%;
 }
