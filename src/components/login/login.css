@@ -1,21 +1,42 @@
 div {
+    display: flex;
 
+    height: 100%;
+    width: 100%;
+
+    margin: 0;
+}
+
+.signupPage {
+    height: 100%;
+    width: 100%;
 }
 
 .companyTitle {
+    border: 1px solid green;
 
+    height: 5%;
 }
 
 .companyLogo {
+    float:left;
+    
+    height: 3%;
+    width: 3%;
 
+    margin-left: 1.5%;
+    margin-top: 2%;
+    margin-right: 0.7%;
 }
 
 .companyName {
-    
+
 }
 
 .login {
+    border: 1px solid black;
 
+    height: 100vh;
 }
 
 .welcomeTitle {
@@ -31,7 +52,10 @@ input {
 }
 
 .signup {
+    border: 1px solid darkblue;
 
+    width: 75%;
+    height: 100vh;
 }
 
 .newTitle {
