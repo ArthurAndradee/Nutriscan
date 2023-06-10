@@ -1,14 +1,20 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from 'react';
+import "./login.css"
 
 function Login() {
     return (
       <div>
+        <section className='companyTitle'>
+          <img className='companyLogo'/>
+          <p className='companyName'>Nutriscan</p>
+        </section>
         <section className='login'>
           <h1 className='welcomeTitle'>Bem vindo de volta</h1>
           <h4>Entre na sua conta</h4>
           <input placeholder='Email' type='text'/>
           <input placeholder='Senha' type='text'/>
-          <button>Entrar</button>
+          <button className='signInButton'>Entrar</button>
         </section>
         <section className='signup'>
           <h1 className='newTitle'>Novo aqui?</h1>
@@ -16,7 +22,7 @@ function Login() {
             Crie uma conta e informe-se de maneira 
             clara sobre sua alimentação
           </p>
-          <button>Cadastre-se</button>
+          <button className='signUpButton'>Cadastre-se</button>
         </section>
       </div>
     );
