@@ -49,6 +49,7 @@ div {
     margin-top: 2%;
     
     font-family: 'Overlock SC', cursive;
+    color: #00602D;
 }
 
 .login {
@@ -62,7 +63,7 @@ div {
     margin-top: 12%;
 
     font-family: 'ABeeZee', sans-serif;
-    font-size: 52px;
+    font-size: 300%;
     font-weight: 200;
 }
 
@@ -72,21 +73,56 @@ div {
 
     font-family: 'Commissioner', sans-serif;
     color: #a3a3a3;
-    font-size: 20px;
+    font-size: 120%;
     font-weight: 200;
 }
 
 input {
-    margin-top: 3%;
+    height: 6%;
+    width: 80%;
 
+    border-radius: 25px;
+    
+    background: #F4F4F4;
+    
+    margin-top: 3%;
+    border: none;
+    padding: 0;
+    outline: inherit;
+    
     font-family: 'Commissioner', sans-serif;
+    text-indent: 3%;
 }
+
+input::placeholder {
+    color: #929292;
+  }
 
 .signInButton {
     margin-top: 9%;
 
     font-family: 'Atkinson Hyperlegible', sans-serif;
     color: #FFFFFF;
+    font-size: 200%;
+
+    height: 13%;
+    width: 30%;
+  
+    border-radius: 50px;
+  
+    background-color: #4DD6A9;;
+  
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline: inherit;
+  
+    transition: all 400ms;
+  
+    &:hover {
+          color: #4DD6A9;
+          background-color: white;
+    }
 }
 
 .signup {
@@ -106,7 +142,7 @@ input {
 
     font-family: 'Atkinson Hyperlegible', sans-serif;
     color: #FFFFFF;
-    font-size: 52px;
+    font-size: 300%;
     font-weight: 200;
 }
 
@@ -123,5 +159,25 @@ input {
     margin-top: 12%;
 
     font-family: 'Atkinson Hyperlegible', sans-serif;
-    color: #FFFFFF;
+    color: #29BD6F;
+    font-size: 200%;
+
+    height: 10%;
+    width: 45%;
+  
+    border-radius: 50px;
+  
+    background-color: #FFFFFF;;
+  
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline: inherit;
+  
+    transition: all 400ms;
+  
+    &:hover {
+          color: #FFFFFF;
+          background-color: #29BD6F;
+    }
 }
