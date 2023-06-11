@@ -15,9 +15,9 @@ div {
 }
 
 .companyTitle {
-    border: 1px solid green;
-
     height: 5%;
+
+    border: 1px solid transparent;
 }
 
 .companyLogo {
@@ -25,32 +25,45 @@ div {
     
     height: 3%;
     width: 3%;
-
+    
     margin-left: 1.5%;
     margin-top: 2%;
     margin-right: 0.7%;
 }
 
 .companyName {
-
+    font-family: 'Overlock SC', cursive;
 }
 
 .login {
-    border: 1px solid black;
-
     height: 100vh;
+    width: 120vh;
+
+    text-align: center;
 }
 
 .welcomeTitle {
-    
+    margin-top: 10%;
+
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.description {
+    margin-bottom: 5%;
+
+    font-family: 'Commissioner', sans-serif;
 }
 
 input {
-    
+    margin-top: 3%;
+
+    font-family: 'Commissioner', sans-serif;
 }
 
 .signInButton {
-    
+    margin-top: 7.5%;
+
+    font-family: 'Atkinson Hyperlegible', sans-serif;
 }
 
 .signup {
@@ -68,6 +81,8 @@ input {
 
     margin-left: 40%;
     margin-top: 30%;
+
+    font-family: 'Atkinson Hyperlegible', sans-serif;
 }
 
 .aboutText {
@@ -77,6 +92,8 @@ input {
     margin-top: 6%;
 
     text-align: center;
+
+    font-family: 'Atkinson Hyperlegible', sans-serif;
 }
 
 .signUpButton {
@@ -84,4 +101,6 @@ input {
 
     margin-left: 23%;
     margin-top: 12%;
+
+    font-family: 'Atkinson Hyperlegible', sans-serif;
 }

@@ -13,9 +13,11 @@ function Login() {
           </section>
           <section className='login'>
             <h1 className='welcomeTitle'>Bem vindo de volta</h1>
-            <h4>Entre na sua conta</h4>
+            <h4 className='description'>Entre na sua conta</h4>
             <input placeholder='Email' type='text'/>
+            <br />
             <input placeholder='Senha' type='text'/>
+            <br />
             <button className='signInButton'>Entrar</button>
           </section>
         </section>
