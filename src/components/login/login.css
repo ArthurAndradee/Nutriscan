@@ -53,7 +53,7 @@ div {
 }
 
 .login {
-    height: 100vh;
+    height: 100%;
     width: 120vh;
 
     text-align: center;
@@ -78,7 +78,7 @@ div {
 }
 
 input {
-    height: 6%;
+    height: 5vh;
     width: 80%;
 
     border-radius: 25px;
@@ -105,7 +105,7 @@ input::placeholder {
     color: #FFFFFF;
     font-size: 200%;
 
-    height: 13%;
+    height: 13vh;
     width: 30%;
   
     border-radius: 50px;
