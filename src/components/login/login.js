@@ -12,7 +12,7 @@ function Login() {
             <p className='companyName'>Nutriscan</p>
           </section>
           <section className='login'>
-            <h1 className='welcomeTitle'>Bem vindo de volta</h1>
+            <h1 className='welcomeTitle'>Bem vindo(a) de volta</h1>
             <h4 className='description'>Entre na sua conta</h4>
             <input placeholder='Email' type='text'/>
             <br />
