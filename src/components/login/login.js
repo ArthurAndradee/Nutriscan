@@ -1,6 +1,5 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from 'react';
-
 import "./login.css"
 
 function Login() {
@@ -12,7 +11,7 @@ function Login() {
             className='companyLogo'/>
             <p className='companyName'>Nutriscan</p>
           </section>
-          <section className='login'>
+          <form className='login'>
             <h1 className='welcomeTitle'>Bem vindo(a) de volta</h1>
             <h4 className='description'>Entre na sua conta</h4>
             <input placeholder='Email' type='email' 
@@ -21,8 +20,8 @@ function Login() {
             <input placeholder='Senha' type='password' pattern=".{8,}"
             title="Insira no mínimo 8 caracteres" required/>
             <br />
-            <button type='submit' className='signInButton'>Entrar</button>
-          </section>
+            <input type='submit' className='signInButton' value='Entrar'/>
+          </form>
         </section>
         <section className='signup'>
           <h1 className='newTitle'>Novo aqui?</h1>

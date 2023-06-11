@@ -1,9 +1,10 @@
-import Login from './components/login/login';
+// import Login from './components/login/login';
+import Signup from "./components/signup/signup";
 
 function App() {
   return (
     <div>
-      <Login />
+      <Signup />
     </div>
   );
 }
