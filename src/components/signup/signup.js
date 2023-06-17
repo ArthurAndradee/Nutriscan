@@ -5,11 +5,13 @@ function Signup() {
     return (
       <div>
         <section className='adPage'>
-          <h1 className='adTitle'>NutriScan</h1>
-          <h1 className='adSubTitle'>Crie uma conta</h1>
-          <article className='adAbout'>Faça parte da primeira plataforma aberta 
-            de informações nutricionais do Brasil.
-          </article>
+          <section className='adTextContainer'>
+            <h1 className='adTitle'>NutriScan</h1>
+            <h1 className='adSubTitle'>Crie uma conta</h1>
+            <article className='adAbout'>Faça parte da primeira plataforma aberta 
+              <br /> de informações nutricionais do Brasil.
+            </article>
+          </section>
         </section>
         <section className='formContainer'>
           <h1 className='formTitle'>Sign Up</h1>
