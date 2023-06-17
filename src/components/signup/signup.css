@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 div {
     display: flex;
 
@@ -18,34 +20,54 @@ div {
     background-size: cover; 
 }
 
-.formContainer {
-    height: 100vh;
-    width: 50%;
-    
-    border: 1px solid red;
-}
 
 .adTextContainer {
     height: 90%;
     width: 80%;
-
-    margin: 3% 10%;
+    
+    margin: 5% 10%;
+    
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .adTitle {
-
+    font-size: 120%;
+    font-weight: 700;
 }
 
 .adSubTitle {
-    margin-top: 27%;
+    font-size: 250%;
+    
+    margin-top: 33%;
+    margin-bottom: 4%;
 }
 
 .adAbout {
+    font-size: 100%;
+    font-weight: 100;
+}
 
+.formContainer {
+    height: 100vh;
+    width: 50%;
+
+    background-color: #f7f7f7;
+}
+
+.formBox {
+    height: 90%;
+    width: 80%;
+    
+    margin: 5% 10%;
+
+    border: 1px solid red;
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .formTitle {
-
+    
 }
 
 .inputTitle {
@@ -61,5 +83,5 @@ input {
 }
 
 .alreadyAccountMemberClick {
-    
+    display: inline-block;
 }
