@@ -7,7 +7,7 @@ function Signup() {
         <section className='adPage'>
           <section className='adTextContainer'>
             <i className='adTitle'>NutriScan</i>
-            <h1 className='adSubTitle'>Crie uma conta!</h1>
+            <h1 className='adSubTitle'>Crie sua conta já!</h1>
             <article className='adAbout'>Entre na maior plataforma 
              de informações nutricionais do Brasil.
             </article>
@@ -15,7 +15,7 @@ function Signup() {
         </section>
         <section className='formContainer'>
           <section className='formBox'>
-            <h1 className='formTitle'>Sign Up</h1>
+            <h1 className='formTitle'>Criar conta</h1>
             <form>
               <p className='inputTitle'>Nome completo</p>
               <input placeholder='Seu nome aqui' type='password' pattern=".{8,}"
@@ -29,7 +29,8 @@ function Signup() {
               <input placeholder='sua senha' type='password' pattern=".{8,}"
               title="Insira no mínimo 8 caracteres" required
               />
-              <input type='submit' value='Criar conta'/>
+              <br />
+              <input className='signUpButton' type='submit' value='Criar conta'/>
             </form>
             <p className='alreadyAccountMember'>Já é um membro?
               <p className='alreadyAccountMemberClick'>Entre aqui</p>
