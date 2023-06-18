@@ -26,13 +26,13 @@ function Signup() {
               pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required
               />
               <p className='inputTitle'>Senha</p>
-              <input placeholder='sua senha' type='password' pattern=".{8,}"
+              <input placeholder='Sua senha' type='password' pattern=".{8,}"
               title="Insira no mínimo 8 caracteres" required
               />
               <br />
               <input className='signUpButton' type='submit' value='Criar conta'/>
             </form>
-            <p className='alreadyAccountMember'>Já é um membro?
+            <p className='alreadyAccountMember'>Já tem uma conta?
               <p className='alreadyAccountMemberClick'>Entre aqui</p>
             </p>
           </section>

@@ -7,6 +7,8 @@ div {
     width: 100%;
 
     margin: 0;
+
+    font-family: 'Commissioner', sans-serif;
 }
 
 .adPage {
@@ -52,41 +54,84 @@ div {
     height: 100vh;
     width: 50%;
 
-    background-color: #f7f7f7;
+    background-color: #eeeeee;
 }
 
 .formBox {
     height: 90%;
     width: 80%;
     
-    margin: 5% 10%;
+    margin: 14% 0 0 16%;
 
-    border: 1px solid red;
     color: #000000;
     font-family: 'Commissioner', sans-serif;
 }
 
 .formTitle {
     font-size: 40px;
+    font-weight: 200;
 }
 
 .inputTitle {
     font-size: 19.5px;
+
+    margin: 2% 0 2% 0;
 }
 
 input {
-    font-size: 18.5;
+    height: 7vh;
+    width: 80%;
+
+    border-radius: 5px;
+    
+    background: #ffffff;
+    
+    border: none;
+    padding: 0;
+    outline: inherit;
+    
+    text-indent: 3%;
+}
+
+input::placeholder {
+    font-size: 115%;
+    color: #929292;
 }
 
 .signUpButton {
     margin-top: 7.5%;
-    margin-bottom: 2.5%;
+    margin-bottom: 1%;
+
+    color: #FFFFFF;
+    background-color: #29BD6F;
+
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline: inherit;
+  
+    transition: all 400ms;
+  
+    &:hover {
+          color: #29BD6F;
+          background-color: #FFFFFF;
+    }
 }
 
 .alreadyAccountMember {
+    width: 80%;
 
+    margin: 0;
+
+    text-align: center;
+    color: #929292;
 }
 
 .alreadyAccountMemberClick {
     display: inline-block;
+    cursor: pointer;
+
+    margin-left: 1%;
+
+    color: #29BD6F;
 }
