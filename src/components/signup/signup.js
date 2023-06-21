@@ -18,7 +18,7 @@ function Signup() {
             <h1 className='formTitle'>Criar conta</h1>
             <form>
               <p className='inputTitle'>Nome completo</p>
-              <input placeholder='Seu nome aqui' type='password' pattern=".{8,}"
+              <input placeholder='Seu nome aqui' type='text' pattern=".{8,}"
               title="Insira no mínimo 8 caracteres" required
               />
               <p className='inputTitle'>Email</p>

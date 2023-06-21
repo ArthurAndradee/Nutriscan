@@ -30,7 +30,7 @@ function Login() {
             <br />
             maneira clara sobre sua alimentação
           </p>
-          <button className='signUpButton'>Cadastre-se</button>
+          <button className='signUpInput'>Cadastre-se</button>
         </section>
       </div>
     );
