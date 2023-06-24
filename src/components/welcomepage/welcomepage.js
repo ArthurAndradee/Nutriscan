@@ -38,7 +38,7 @@ function WelcomePage() {
         <section>
           <h1>Pesquisará o que hoje?</h1>
           <div>
-            <input type='text' />
+            <input type='text'/>
           </div>
           <div>
             <button>Vegetais</button>
