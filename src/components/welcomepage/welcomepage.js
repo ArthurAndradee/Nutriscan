@@ -7,9 +7,9 @@ function WelcomePage() {
     return (
       <div>
         <header>
-          <div>
-            <img />
-            <h3 />
+          <div className='companyTitle'>
+            <img className='companyIcon'/>
+            <h3 className='companyName'/>
           </div>
           <div>
             <div>
