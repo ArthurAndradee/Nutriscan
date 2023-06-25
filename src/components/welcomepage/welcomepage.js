@@ -6,12 +6,12 @@ import "./welcomepage.css"
 function WelcomePage() {
     return (
       <div>
-        <header>
+        <header className='mainHeader'>
           <div className='companyTitle'>
             <img className='companyIcon'/>
             <h3 className='companyName'/>
           </div>
-          <nav className='navHeader'>
+          <nav className='headerNav'>
             <div className='navCategory'>
               <h4 className='categoryTitle'>Carboidratos</h4>
               <button className='categoryButton'></button>
@@ -29,7 +29,7 @@ function WelcomePage() {
               <button className='categoryButton'></button>
             </div>
           </nav>
-          <nav>
+          <nav className='userNav'>
             <button className='savedIcon'></button>
             <button className='notificationIcon'></button>
             <button className='profileIcon'></button>
