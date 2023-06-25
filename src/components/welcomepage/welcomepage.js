@@ -11,50 +11,52 @@ function WelcomePage() {
             <img className='companyIcon'/>
             <h3 className='companyName'/>
           </div>
-          <div>
-            <div>
-              <h4>Carboidratos</h4>
-              <button></button>
+          <nav className='navHeader'>
+            <div className='navCategory'>
+              <h4 className='categoryTitle'>Carboidratos</h4>
+              <button className='categoryButton'></button>
             </div>
-            <div>
-              <h4>Proteínas</h4>
-              <button></button>
+            <div className='navCategory'>
+              <h4 className='categoryTitle'>Proteínas</h4>
+              <button className='categoryButton'></button>
             </div>
-            <div>
-              <h4>Gorduras</h4>
-              <button></button>
+            <div className='navCategory'>
+              <h4 className='categoryTitle'>Gorduras</h4>
+              <button className='categoryButton'></button>
             </div>
-            <div>
-              <h4>Frutas</h4>
-              <button></button>
+            <div className='navCategory'>
+              <h4 className='categoryTitle'>Frutas</h4>
+              <button className='categoryButton'></button>
             </div>
-          </div>
-          <div>
-            <button></button>
-            <button></button>
-            <button></button>
-          </div>
+          </nav>
+          <nav>
+            <button className='savedIcon'></button>
+            <button className='notificationIcon'></button>
+            <button className='profileIcon'></button>
+          </nav>
         </header>
-        <section>
-          <h1>Pesquisará o que hoje?</h1>
+        <section className='mainSection'>
+          <h1 className='mainSectionTitle'>
+            Pesquisará o que hoje?
+          </h1>
           <div>
-            <input type='text'/>
+            <input className='mainSectionInput' type='text'/>
           </div>
-          <div>
-            <button>Vegetais</button>
-            <button>Frutas</button>
-            <button>Carboidratos</button>
-            <button>Carnes</button>
-            <button>Frutos do Mar</button>
-            <button>Leite e Derivados</button>
-            <button>Fast Food</button>
-            <button>Açucarados</button>
-            <button>Em Dúvida</button>
+          <div className='mainSectionButtons'>
+            <button className='foodButton'>Vegetais</button>
+            <button className='foodButton'>Frutas</button>
+            <button className='foodButton'>Carboidratos</button>
+            <button className='foodButton'>Carnes</button>
+            <button className='foodButton'>Frutos do Mar</button>
+            <button className='foodButton'>Leite e Derivados</button>
+            <button className='foodButton'>Fast Food</button>
+            <button className='foodButton'>Açucarados</button>
+            <button className='foodButton'>Em Dúvida</button>
           </div>
         </section>
-        <main>
-          <h2>Carnes Vermelhas</h2>
-          <div>
+        <main className='foodSection'>
+          <h2 className='foodSectionTitle'>Carnes Vermelhas</h2>
+          <div className='foodBar'>
             <article></article>
             <article></article>
             <article></article>
@@ -63,9 +65,9 @@ function WelcomePage() {
             <article></article>
           </div>
         </main>
-        <main>
-          <h2>Carnes Brancas</h2>
-          <div>
+        <main className='foodSection'>
+          <h2 className='foodSectionTitle'>Carnes Brancas</h2>
+          <div className='foodBar'>
             <article></article>
             <article></article>
             <article></article>
