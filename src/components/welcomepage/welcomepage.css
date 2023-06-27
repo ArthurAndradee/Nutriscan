@@ -1,25 +1,40 @@
-.mainHeader {
+div {
+    overflow: hidden; 
+}
 
+.mainHeader {
+    width: 100%;
+    height: 60px;
+
+    border: 1px solid black;
+
+    display: inline-block;
 }
 
 .companyTitle {
+    float: left;
+    width: 9%;
 
+    margin: 0;
 }
 
 .companyIcon {
+    height: 100%;
+    width: 100%;
 
-}
-
-.companyName {
-
+    margin: 13% 0 0 15%;
 }
 
 .headerNav {
+    height: 100%;
 
+    display:flex;
+
+    margin-left: 12%;
 }
 
 .navCategory {
-
+    display: flex;
 }
 
 .categoryTitle {
@@ -27,7 +42,19 @@
 }
 
 .categoryButton {
+    height: 30%;
+    width: 40px;
 
+    margin-top: 5%;
+}
+
+.userNav {
+    height: 50%;
+    width: 4.2%;
+
+    margin: 1% 0 0 47.5%;
+
+    border: 1px solid black;
 }
 
 .savedIcon {

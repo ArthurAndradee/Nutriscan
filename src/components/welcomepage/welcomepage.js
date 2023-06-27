@@ -7,10 +7,11 @@ function WelcomePage() {
     return (
       <div>
         <header className='mainHeader'>
-          <div className='companyTitle'>
-            <img className='companyIcon'/>
-            <h3 className='companyName'/>
-          </div>
+          <nav className='companyTitle'>
+            <img className='companyIcon'
+            src='https://i.imgur.com/v52Jw20.png'
+            />
+          </nav>
           <nav className='headerNav'>
             <div className='navCategory'>
               <h4 className='categoryTitle'>Carboidratos</h4>
@@ -28,11 +29,11 @@ function WelcomePage() {
               <h4 className='categoryTitle'>Frutas</h4>
               <button className='categoryButton'></button>
             </div>
-          </nav>
-          <nav className='userNav'>
-            <button className='savedIcon'></button>
-            <button className='notificationIcon'></button>
-            <button className='profileIcon'></button>
+            <div className='userNav'>
+              <button className='savedIcon'></button>
+              <button className='notificationIcon'></button>
+              <button className='profileIcon'></button>
+            </div>
           </nav>
         </header>
         <section className='mainSection'>
