@@ -35,6 +35,8 @@ div {
 
 .navCategory {
     display: flex;
+
+    align-items: center;
 }
 
 .categoryTitle {
@@ -44,8 +46,6 @@ div {
 .categoryButton {
     height: 30%;
     width: 40px;
-
-    margin-top: 5%;
 }
 
 .userNav {
