@@ -30,9 +30,15 @@ function WelcomePage() {
               <button className='categoryButton'></button>
             </div>
             <div className='userNav'>
-              <button className='savedIcon'></button>
-              <button className='notificationIcon'></button>
-              <button className='profileIcon'></button>
+              <button className='savedIcon'>
+                
+              </button>
+              <button className='notificationIcon'>
+
+              </button>
+              <button className='profileIcon'>
+              {/* <FontAwesomeIcon icon={faCircleUser} /> */}
+              </button>
             </div>
           </nav>
         </header>
