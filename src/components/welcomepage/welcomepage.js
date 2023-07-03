@@ -70,6 +70,8 @@ function WelcomePage() {
             <article></article>
             <article></article>
             <article></article>
+            <article></article>
+            <article></article>
           </div>
         </main>
         <main className='foodSection'>
