@@ -2,6 +2,8 @@
 /* eslint-disable jsx-a11y/heading-has-content */
 import React from 'react';
 import "./welcomepage.css"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBell, faCircleUser, faBookmark  } from '@fortawesome/free-solid-svg-icons'
 
 function WelcomePage() {
     return (
@@ -30,14 +32,14 @@ function WelcomePage() {
               <button className='categoryButton'></button>
             </div>
             <div className='userNav'>
-              <button className='savedIcon'>
-                
+              <button className='navIcon'>
+                <FontAwesomeIcon icon={faBookmark} />
               </button>
-              <button className='notificationIcon'>
-
+              <button className='navIcon'>
+                <FontAwesomeIcon icon={faBell} />
               </button>
-              <button className='profileIcon'>
-              {/* <FontAwesomeIcon icon={faCircleUser} /> */}
+              <button className='navIcon'>
+                <FontAwesomeIcon icon={faCircleUser} />
               </button>
             </div>
           </nav>
@@ -64,8 +66,6 @@ function WelcomePage() {
         <main className='foodSection'>
           <h2 className='foodSectionTitle'>Carnes Vermelhas</h2>
           <div className='foodBar'>
-            <article></article>
-            <article></article>
             <article></article>
             <article></article>
             <article></article>

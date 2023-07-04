@@ -8,35 +8,31 @@ div {
 
     border: 1px solid black;
 
-    display: inline-block;
+    display: flex
 }
 
 .companyTitle {
-    float: left;
-    width: 9%;
+    width: 130px;
+    height: 40px;
 
-    margin: 0;
+    margin: 10px 0 0 2%;
+
+    border: 1px solid black;
 }
 
 .companyIcon {
-    height: 100%;
-    width: 100%;
-
-    margin: 13% 0 0 15%;
+    height: 35px;
+    width: 130px;
 }
 
 .headerNav {
     height: 100%;
 
     display:flex;
-
-    margin-left: 12%;
 }
 
 .navCategory {
     display: flex;
-
-    align-items: center;
 }
 
 .categoryTitle {
@@ -49,24 +45,23 @@ div {
 }
 
 .userNav {
-    height: 50%;
-    width: 4.2%;
+    height: 100%;
+    width: 12.2%;
 
-    margin: 1% 0 0 47.5%;
+    margin: 0 0 0 47.5%;
 
     border: 1px solid black;
+
+    display: flex;
 }
 
-.savedIcon {
-
-}
-
-.notificationIcon {
-
-}
-
-.profileIcon {
-
+.navIcon {
+    background-color: rgb(255, 255, 255);
+    border: none; 
+    color: black; 
+    font-size: 180%;
+    -webkit-text-stroke: 1px background-color;
+    cursor: pointer;
 }
 
 .mainSection {
