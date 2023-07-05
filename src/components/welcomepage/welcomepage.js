@@ -15,21 +15,23 @@ function WelcomePage() {
             />
           </nav>
           <nav className='headerNav'>
-            <div className='navCategory'>
-              <h4 className='categoryTitle'>Carboidratos</h4>
-              <button className='categoryButton'></button>
-            </div>
-            <div className='navCategory'>
-              <h4 className='categoryTitle'>Proteínas</h4>
-              <button className='categoryButton'></button>
-            </div>
-            <div className='navCategory'>
-              <h4 className='categoryTitle'>Gorduras</h4>
-              <button className='categoryButton'></button>
-            </div>
-            <div className='navCategory'>
-              <h4 className='categoryTitle'>Frutas</h4>
-              <button className='categoryButton'></button>
+            <div className='navBar'>
+              <div className='navCategory'>
+                <h4 className='categoryTitle'>Carboidratos</h4>
+                <button className='categoryButton'></button>
+              </div>
+              <div className='navCategory'>
+                <h4 className='categoryTitle'>Proteínas</h4>
+                <button className='categoryButton'></button>
+              </div>
+              <div className='navCategory'>
+                <h4 className='categoryTitle'>Gorduras</h4>
+                <button className='categoryButton'></button>
+              </div>
+              <div className='navCategory'>
+                <h4 className='categoryTitle'>Frutas</h4>
+                <button className='categoryButton'></button>
+              </div>
             </div>
             <div className='userNav'>
               <button className='navIcon'>

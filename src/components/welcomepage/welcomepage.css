@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+* {
+    font-family: 'Arimo', sans-serif;
+}
+
 div {
     overflow: hidden; 
 }
@@ -6,18 +11,19 @@ div {
     width: 100%;
     height: 60px;
 
-    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
 
-    display: flex
+    -webkit-box-shadow: 0px 5px 25px -24px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 5px 25px -24px rgba(0,0,0,1);
+    box-shadow: 0px 5px 25px -24px rgba(0,0,0,1);
 }
 
 .companyTitle {
     width: 130px;
     height: 40px;
 
-    margin: 10px 0 0 2%;
-
-    border: 1px solid black;
+    margin: 10px 0 0 0;
 }
 
 .companyIcon {
@@ -31,28 +37,46 @@ div {
     display:flex;
 }
 
+.navBar {
+    display: flex;
+
+    width: 966px;
+}
+
 .navCategory {
     display: flex;
+    margin-left: 25px;
 }
 
 .categoryTitle {
-
+    font-weight: 500;
 }
 
 .categoryButton {
-    height: 30%;
-    width: 20px;
+    height: 13px;
+    width: 13px;
+
+    margin-top: 21px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    background-color: transparent;
+
+    padding: 5px;
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    cursor: pointer;
 }
 
 .userNav {
     height: 100%;
-    width: 220px;
-
-    margin: 0 0 0 47.5%;
-
-    border: 1px solid black;
+    width: 150px;
 
     display: flex;
+    justify-content: space-around;
 }
 
 .navIcon {
