@@ -80,7 +80,7 @@ div {
 }
 
 .navIcon {
-    background-color: rgb(255, 255, 255);
+    background-color: transparent;
     border: none; 
     color: black; 
     font-size: 180%;
