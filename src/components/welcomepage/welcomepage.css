@@ -89,7 +89,8 @@ div {
 }
 
 .mainSection {
-
+    height: 55%;
+    border: 1px solid;
 }
 
 .mainSectionTitle {
