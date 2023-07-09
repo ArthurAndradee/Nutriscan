@@ -148,13 +148,29 @@ div {
     height: 100px;
     width: 1200px;
 
-    border: 1px solid blue;
-
-    display: inline-block;
+    display: inline-flex;
+    justify-content: space-around;
 }
 
 .foodButton {
+    height: 50px;
+    width: 50px;
 
+    background-color: white;
+    color: black;
+
+    border: none;
+    border-radius: 30px;
+    padding: 10px 10px;
+    
+    font-size: 27px;
+    cursor: pointer;
+
+    text-align: center;
+}
+
+.foodName {
+    color: #FFFFFF;
 }
 
 .foodSection {

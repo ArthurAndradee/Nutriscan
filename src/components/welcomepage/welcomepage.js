@@ -3,7 +3,21 @@
 import React from 'react';
 import "./welcomepage.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBell, faCircleUser, faBookmark, faMagnifyingGlass  } from '@fortawesome/free-solid-svg-icons'
+import { 
+  faBell, 
+  faCircleUser, 
+  faBookmark, 
+  faMagnifyingGlass,
+  faPepperHot,
+  faAppleWhole,
+  faWheatAwn,
+  faBacon,
+  faShrimp,
+  faCheese,
+  faBurger,
+  faCakeCandles,
+  faQuestion
+} from '@fortawesome/free-solid-svg-icons'
 
 function WelcomePage() {
     return (
@@ -58,17 +72,62 @@ function WelcomePage() {
             placeholder='Sua pesquisa aqui'
             />
           </div>
-          <div style={{height:'10px'}}></div>
+          <div style={{height:'30px'}}></div>
           <div className='mainSectionButtons'>
-            <button className='foodButton'>Vegetais</button>
-            <button className='foodButton'>Frutas</button>
-            <button className='foodButton'>Carboidratos</button>
-            <button className='foodButton'>Carnes</button>
-            <button className='foodButton'>Frutos do Mar</button>
-            <button className='foodButton'>Leite e Derivados</button>
-            <button className='foodButton'>Fast Food</button>
-            <button className='foodButton'>Açucarados</button>
-            <button className='foodButton'>Em Dúvida</button>
+            <div>
+              <button className='foodButton'>
+                <FontAwesomeIcon icon={faPepperHot} style={{color: "#000000",}} />
+              </button>
+              <p className='foodName'>Vegetais</p>
+            </div>
+            <div>
+              <button className='foodButton'>
+                <FontAwesomeIcon icon={faAppleWhole} style={{color: "#000000",}} />
+              </button>
+              <p className='foodName'>Frutas</p>
+            </div>
+            <div>
+              <button className='foodButton'>
+                <FontAwesomeIcon icon={faWheatAwn} style={{color: "#000000",}} />
+              </button>
+              <p className='foodName'>Carboidratos</p>
+            </div>
+            <div>              
+              <button className='foodButton'>
+                <FontAwesomeIcon icon={faBacon} style={{color: "#000000",}} />
+              </button>
+              <p className='foodName'>Carnes</p>
+            </div>
+            <div>
+              <button className='foodButton'>
+                <FontAwesomeIcon icon={faShrimp} style={{color: "#000000",}} />
+              </button>
+              <p className='foodName'>Frutos do Mar</p>
+            </div>
+            <div>
+              <button className='foodButton'>
+                <FontAwesomeIcon icon={faCheese} style={{color: "#000000",}}/>
+              </button>
+              <p className='foodName'>Leite e Derivados</p>
+            </div>
+            <div>
+              <button className='foodButton'>
+                <FontAwesomeIcon icon={faBurger} style={{color: "#000000",}}/>
+              </button>
+              <p className='foodName'>Fast Food</p>
+            </div>
+            <div>
+              <button className='foodButton'>
+                <FontAwesomeIcon icon={faCakeCandles} style={{color: "#000000",}}/>
+              </button>
+              <p className='foodName'>Açucarados</p>
+            </div>
+            <div>
+              <button className='foodButton'>
+                <FontAwesomeIcon icon={faQuestion} style={{color: "#000000",}}/>
+              </button>
+              <p className='foodName'>Em Dúvida</p>
+            </div>
           </div>
         </section>
         <main className='foodSection'>
