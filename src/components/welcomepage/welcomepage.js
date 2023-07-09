@@ -64,7 +64,7 @@ function WelcomePage() {
           <h1 className='mainSectionTitle'>
             Pesquisará o que hoje?
           </h1>
-          <div>
+          <div className='inputDiv'>
             <div className='faIconDiv'>
               <FontAwesomeIcon style={{fontSize:'22px', marginTop:'10px', color:'#6e6e6e'}} icon={faMagnifyingGlass} />
             </div>
@@ -72,7 +72,7 @@ function WelcomePage() {
             placeholder='Sua pesquisa aqui'
             />
           </div>
-          <div style={{height:'30px'}}></div>
+          <div style={{height:'10%'}}></div>
           <div className='mainSectionButtons'>
             <div>
               <button className='foodButton'>
@@ -102,13 +102,13 @@ function WelcomePage() {
               <button className='foodButton'>
                 <FontAwesomeIcon icon={faShrimp} style={{color: "#000000",}} />
               </button>
-              <p className='foodName'>Frutos do Mar</p>
+              <p className='foodName'>Pescados</p>
             </div>
             <div>
               <button className='foodButton'>
                 <FontAwesomeIcon icon={faCheese} style={{color: "#000000",}}/>
               </button>
-              <p className='foodName'>Leite e Derivados</p>
+              <p className='foodName'>Laticínios</p>
             </div>
             <div>
               <button className='foodButton'>

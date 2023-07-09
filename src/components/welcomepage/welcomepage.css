@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&display=swap');
+
 * {
-    font-family: 'Arimo', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 div {
@@ -50,6 +51,8 @@ div {
 
 .categoryTitle {
     font-weight: 500;
+
+    cursor: default;
 }
 
 .categoryButton {
@@ -109,25 +112,40 @@ div {
 
     font-size: 35px;
     color: white;
+
+    font-weight: 599;
+
+    cursor: default;
+}
+
+.inputDiv{
+    height: 45px;
+    width: 98vw;
+
+    justify-content: center;
+    display: flex;
 }
 
 .faIconDiv {
     height: 45px;
     width: 50px;
+      
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
 
-    position: absolute;
-    margin-left: 405px;
+    background: white;
+    
+    box-shadow: 0px 0px 2px 0px #000000;
+
+    cursor: pointer;
 }
 
-.mainSectionInput {
+.mainSectionInput { 
     height: 45px;
-    width: 650px;
-
-    margin-left: 0px;
+    width: 600px;
   
-    border-radius: 30px;
-    
-    box-shadow: 0px 0px 2px 0px #4F0DA8;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
   
     color:black;
   
@@ -136,7 +154,7 @@ div {
     padding: 0;
     outline: inherit;
   
-    text-indent: 60px;
+    text-indent: 5px;
 }
 
 .mainSectionInput::placeholder {
@@ -153,17 +171,17 @@ div {
 }
 
 .foodButton {
-    height: 50px;
-    width: 50px;
+    height: 42px;
+    width: 42px;
 
     background-color: white;
     color: black;
 
     border: none;
     border-radius: 30px;
-    padding: 10px 10px;
+    padding: 0px 0px;
     
-    font-size: 27px;
+    font-size: 23px;
     cursor: pointer;
 
     text-align: center;
@@ -171,6 +189,10 @@ div {
 
 .foodName {
     color: #FFFFFF;
+    margin-top: 10%;
+
+    font-size: 90%;
+    cursor: default;
 }
 
 .foodSection {
