@@ -8,13 +8,13 @@ import { faBell, faCircleUser, faBookmark  } from '@fortawesome/free-solid-svg-i
 function WelcomePage() {
     return (
       <div>
-        <header className='mainHeader'>
+        <nav className='headerNav'>
+          <header className='mainHeader'>
           <nav className='companyTitle'>
             <img className='companyIcon'
             src='https://i.imgur.com/v52Jw20.png'
             />
           </nav>
-          <nav className='headerNav'>
             <div className='navBar'>
               <div className='navCategory'>
                 <h4 className='categoryTitle'>Carboidratos</h4>
@@ -44,8 +44,8 @@ function WelcomePage() {
                 <FontAwesomeIcon icon={faCircleUser} />
               </button>
             </div>
+            </header>
           </nav>
-        </header>
         <section className='mainSection'>
           <h1 className='mainSectionTitle'>
             Pesquisará o que hoje?

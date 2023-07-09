@@ -13,7 +13,6 @@ div {
 
     display: flex;
     justify-content: space-around;
-    overflow: hidden; 
 
     -webkit-box-shadow: 0px 5px 25px -24px rgba(0,0,0,1);
     -moz-box-shadow: 0px 5px 25px -24px rgba(0,0,0,1);
@@ -24,7 +23,7 @@ div {
     width: 130px;
     height: 40px;
 
-    margin: 15px 0 0 0;
+    margin: 10px 0 0 1%;
 }
 
 .companyIcon {
@@ -41,7 +40,7 @@ div {
 .navBar {
     display: flex;
 
-    width: 966px;
+    width: 100%;
 }
 
 .navCategory {
@@ -54,8 +53,8 @@ div {
 }
 
 .categoryButton {
-    height: 13px;
-    width: 13px;
+    height: 5%;
+    width: 5%;
 
     margin-top: 21px;
     margin-left: 10px;
@@ -90,12 +89,26 @@ div {
 }
 
 .mainSection {
-    height: 55%;
-    border: 1px solid;
+    height: 270px;
+    width: 98vw;
+
+    margin-top: 10px;
+    margin-left: 1vw;
+
+    background: rgb(1,175,76);
+    background: linear-gradient(90deg, rgba(1,175,76,1) 36%, rgba(0,82,71,1) 90%);
+    
+    border-radius: 20px;
+
+    text-align:center;
 }
 
 .mainSectionTitle {
+    display: inline-block;
+    margin-top: 30px;
 
+    font-size: 35px;
+    color: white;
 }
 
 .mainSectionInput {
