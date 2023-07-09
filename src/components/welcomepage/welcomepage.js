@@ -3,7 +3,7 @@
 import React from 'react';
 import "./welcomepage.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBell, faCircleUser, faBookmark  } from '@fortawesome/free-solid-svg-icons'
+import { faBell, faCircleUser, faBookmark, faMagnifyingGlass  } from '@fortawesome/free-solid-svg-icons'
 
 function WelcomePage() {
     return (
@@ -51,8 +51,14 @@ function WelcomePage() {
             Pesquisará o que hoje?
           </h1>
           <div>
-            <input className='mainSectionInput' type='text'/>
+            <div className='faIconDiv'>
+              <FontAwesomeIcon style={{fontSize:'22px', marginTop:'10px', color:'#6e6e6e'}} icon={faMagnifyingGlass} />
+            </div>
+            <input className='mainSectionInput' type='text' 
+            placeholder='Sua pesquisa aqui'
+            />
           </div>
+          <div style={{height:'10px'}}></div>
           <div className='mainSectionButtons'>
             <button className='foodButton'>Vegetais</button>
             <button className='foodButton'>Frutas</button>
