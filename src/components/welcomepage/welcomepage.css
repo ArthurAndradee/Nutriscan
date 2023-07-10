@@ -92,7 +92,7 @@ div {
 }
 
 .mainSection {
-    height: 270px;
+    height: 260px;
     width: 98vw;
 
     margin-top: 10px;
@@ -196,17 +196,28 @@ div {
 }
 
 .foodSection {
-
+    height: 160px;
+    width: 98vw;
+    
+    margin-left: 1vw;
 }
 
 .foodSectionTitle {
-
+    font-size: 18px;
 }
 
 .foodBar {
 
 }
 
-article {
+.foodImage {
+    height: 100px;
+    width: 170px;
 
+    display: inline-block;
+
+    background-color: #f1f1f1;
+
+    margin-right: 2vw;
+    border-radius: 20px;
 }

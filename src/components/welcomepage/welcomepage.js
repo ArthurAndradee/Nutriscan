@@ -130,18 +130,18 @@ function WelcomePage() {
             </div>
           </div>
         </section>
-        <main className='foodSection'>
+        <div className='foodSection'>
           <h2 className='foodSectionTitle'>Carnes Vermelhas</h2>
           <div className='foodBar'>
-            <article></article>
-            <article></article>
-            <article></article>
-            <article></article>
-            <article></article>
-            <article></article>
+            <div className='foodImage'></div>
+            <div className='foodImage'></div>
+            <div className='foodImage'></div>
+            <div className='foodImage'></div>
+            <div className='foodImage'></div>
+            <div className='foodImage'></div>
           </div>
-        </main>
-        <main className='foodSection'>
+        </div>
+        {/* <div className='foodSection'>
           <h2 className='foodSectionTitle'>Carnes Brancas</h2>
           <div className='foodBar'>
             <article></article>
@@ -151,7 +151,7 @@ function WelcomePage() {
             <article></article>
             <article></article>
           </div>
-        </main>
+        </div> */}
       </div>
     );
   }
