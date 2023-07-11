@@ -140,18 +140,25 @@ function WelcomePage() {
             <div className='foodImage'></div>
             <div className='foodImage'></div>
           </div>
-        </div>
-        {/* <div className='foodSection'>
           <h2 className='foodSectionTitle'>Carnes Brancas</h2>
           <div className='foodBar'>
-            <article></article>
-            <article></article>
-            <article></article>
-            <article></article>
-            <article></article>
-            <article></article>
+            <div className='foodImage'></div>
+            <div className='foodImage'></div>
+            <div className='foodImage'></div>
+            <div className='foodImage'></div>
+            <div className='foodImage'></div>
+            <div className='foodImage'></div>
           </div>
-        </div> */}
+          <h2 className='foodSectionTitle'>Legumes</h2>
+          <div className='foodBar'>
+            <div className='foodImage'></div>
+            <div className='foodImage'></div>
+            <div className='foodImage'></div>
+            <div className='foodImage'></div>
+            <div className='foodImage'></div>
+            <div className='foodImage'></div>
+          </div>
+        </div>
       </div>
     );
   }
