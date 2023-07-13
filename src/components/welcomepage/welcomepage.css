@@ -206,6 +206,7 @@ div {
 
 .foodSection {
     grid-auto-columns: 100%;
+    scroll-behavior: smooth;
 }
 
 .foodBar {
