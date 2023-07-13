@@ -133,36 +133,36 @@ function WelcomePage() {
           <h2 className='foodSectionTitle'>Carnes Vermelhas</h2>
         <div className='foodSection'>
           <div className='foodBar'>
-            <div className='foodImage'>AA</div>
-            <div className='foodImage'>AA</div>
-            <div className='foodImage'>AA</div>
-            <div className='foodImage'>AA</div>
-            <div className='foodImage'>AA</div>
-            <div className='foodImage'>AA</div>
+            <div className='foodImage'>AAA</div>
+            <div className='foodImage'>AAA</div>
+            <div className='foodImage'>AAA</div>
+            <div className='foodImage'>AAA</div>
+            <div className='foodImage'>AAA</div>
+            <div className='foodImage'>AAA</div>
           </div>
           <div className='foodBar'>
-            <div className='foodImage'>BB</div>
-            <div className='foodImage'>BB</div>
-            <div className='foodImage'>BB</div>
-            <div className='foodImage'>BB</div>
-            <div className='foodImage'>BB</div>
-            <div className='foodImage'>BB</div>
+            <div className='foodImage'>BBB</div>
+            <div className='foodImage'>BBB</div>
+            <div className='foodImage'>BBB</div>
+            <div className='foodImage'>BBB</div>
+            <div className='foodImage'>BBB</div>
+            <div className='foodImage'>BBB</div>
           </div>
           <div className='foodBar'>
-            <div className='foodImage'>CC</div>
-            <div className='foodImage'>CC</div>
-            <div className='foodImage'>CC</div>
-            <div className='foodImage'>CC</div>
-            <div className='foodImage'>CC</div>
-            <div className='foodImage'>CC</div>
+            <div className='foodImage'>CCC</div>
+            <div className='foodImage'>CCC</div>
+            <div className='foodImage'>CCC</div>
+            <div className='foodImage'>CCC</div>
+            <div className='foodImage'>CCC</div>
+            <div className='foodImage'>CCC</div>
           </div>
           <div className='foodBar'>
-            <div className='foodImage'>DD</div>
-            <div className='foodImage'>DD</div>
-            <div className='foodImage'>DD</div>
-            <div className='foodImage'>DD</div>
-            <div className='foodImage'>DD</div>
-            <div className='foodImage'>DD</div>
+            <div className='foodImage'>DDD</div>
+            <div className='foodImage'>DDD</div>
+            <div className='foodImage'>DDD</div>
+            <div className='foodImage'>DDD</div>
+            <div className='foodImage'>DDD</div>
+            <div className='foodImage'>DDD</div>
           </div>
         </div>
       </div>
