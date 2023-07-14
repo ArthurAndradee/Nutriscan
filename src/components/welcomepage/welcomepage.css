@@ -4,7 +4,7 @@
     font-family: 'Lato', sans-serif;
 }
 
-div {
+.page {
     overflow: hidden; 
 }
 
@@ -198,6 +198,10 @@ div {
     font-size: 18px;
 }
 
+.foodContainer {
+    position: relative;
+}
+
 .foodSection, 
 .foodBar {
     display: grid;
@@ -207,11 +211,13 @@ div {
 .foodSection {
     grid-auto-columns: 100%;
     scroll-behavior: smooth;
+    overflow: hidden; 
 }
 
 .foodBar {
     grid-auto-columns: 1fr;
     border: 3px solid blue;
+    overflow: hidden; 
 }
 
 .foodImage {
@@ -223,4 +229,27 @@ div {
     background-color: #f1f1f1;
 
     border-radius: 20px;
+}
+
+.nextArrow, 
+.previousArrow {
+    z-index: 10;
+    position: absolute;
+
+    border: 1px solid red;
+
+    width: 200px;
+    height: 50px;
+
+    /* background: rgba(255, 255, 255); */
+}
+
+.previousArrow {
+    left: 0;
+    top: 0;
+}
+
+.nextArrow {
+    right: 0;
+    top: 0;
 }
