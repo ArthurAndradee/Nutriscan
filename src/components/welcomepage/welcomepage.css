@@ -238,7 +238,9 @@
 
     border: 1px solid red;
 
+    font-weight: 100;
     font-size: 85px;
+    color: #000000;
 }
 
 .previousArrow {
