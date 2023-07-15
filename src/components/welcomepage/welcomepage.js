@@ -171,7 +171,7 @@ function WelcomePage() {
               <div className='foodImage'>CCC</div>
               <div className='foodImage'>CCC</div>
               <a className='nextArrow' href='#foodBar-4'>
-                <FontAwesomeIcon icon={faChevronRight} className='nextArrow' />
+                <FontAwesomeIcon icon={faChevronRight}/>
               </a>
             </div>
             <div className='foodBar' id='foodBar-4'>

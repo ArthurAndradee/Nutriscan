@@ -238,10 +238,7 @@
 
     border: 1px solid red;
 
-    width: 200px;
-    height: 50px;
-
-    /* background: rgba(255, 255, 255); */
+    font-size: 85px;
 }
 
 .previousArrow {
