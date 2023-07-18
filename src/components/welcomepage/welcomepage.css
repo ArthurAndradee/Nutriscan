@@ -223,22 +223,22 @@
 .foodImage {
     height: 100px;
     width: 170px;
-
+    
     object-fit: cover;
-
+    
     background-color: #f1f1f1;
-
+    
     border-radius: 20px;
 }
 
 .nextArrow, 
 .previousArrow {
+    display: none;
     z-index: 10;
     position: absolute;
-
+    
     border: 1px solid red;
-
-    font-weight: 100;
+    
     font-size: 85px;
     color: #000000;
 }
@@ -251,4 +251,8 @@
 .nextArrow {
     right: 0;
     top: 0;
+}
+
+.foodBar:target :where(.nextArrow, .previousArrow) {
+    display: block;
 }
