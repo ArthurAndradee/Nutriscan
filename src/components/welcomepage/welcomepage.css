@@ -9,7 +9,7 @@
 }
 
 .mainHeader {
-    width: 100%;
+width: 100%;
     height: 60px;
 
     display: flex;
@@ -92,7 +92,7 @@
 }
 
 .mainSection {
-    height: 260px;
+    height: 270px;
     width: 98vw;
 
     margin-top: 10px;
