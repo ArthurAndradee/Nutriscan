@@ -216,8 +216,6 @@ width: 100%;
 
 .foodBar {
     grid-auto-columns: 1fr;
-    border: 3px solid blue;
-    overflow: hidden; 
 }
 
 .foodImage {
@@ -236,8 +234,7 @@ width: 100%;
     display: none;
     z-index: 10;
     position: absolute;
-    
-    border: 1px solid red;
+    align-items: center;
     
     font-size: 85px;
     color: #000000;
@@ -246,13 +243,19 @@ width: 100%;
 .previousArrow {
     left: 0;
     top: 0;
+    bottom: 0;
 }
 
 .nextArrow {
     right: 0;
     top: 0;
+    bottom: 0;
 }
 
 .foodBar:target :where(.nextArrow, .previousArrow) {
-    display: block;
+    display: flex;
+}
+
+.foodBar:first-child :where(.nextArrow, .previousArrow) {
+    display: flex;
 }

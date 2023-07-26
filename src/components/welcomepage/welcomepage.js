@@ -184,6 +184,9 @@ function WelcomePage() {
               <div className='foodImage'>DDD</div>
               <div className='foodImage'>DDD</div>
               <div className='foodImage'>DDD</div>
+              <a className='nextArrow' href='#foodBar-1'>
+                <FontAwesomeIcon icon={faChevronRight} />
+              </a>
             </div>
           </div>
         </div>
