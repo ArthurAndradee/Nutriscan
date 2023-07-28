@@ -200,6 +200,10 @@ width: 100%;
 
 .foodContainer {
     position: relative;
+
+    margin-left: 1%;
+
+    border: 1px solid red;
 }
 
 .foodSection, 
@@ -216,13 +220,13 @@ width: 100%;
 
 .foodBar {
     grid-auto-columns: 1fr;
+
+    margin-left: 70px;
 }
 
 .foodImage {
     height: 100px;
     width: 170px;
-    
-    object-fit: cover;
     
     background-color: #f1f1f1;
     
@@ -271,4 +275,8 @@ width: 100%;
 
 .foodBar:first-child :where(.nextArrow, .previousArrow) {
     display: flex;
+}
+
+#foodBar-1, #foodBar-5 {
+    margin: 0;
 }

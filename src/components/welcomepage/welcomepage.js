@@ -132,67 +132,138 @@ function WelcomePage() {
             </div>
           </div>
         </section>
-        <h2 className='foodSectionTitle'>Carnes Vermelhas</h2>
-        <div className='foodContainer'>
-          <div className='foodSection'>
-            <div className='foodBar' id='foodBar-1'>
-              <div className='foodImage'>AAA</div>
-              <div className='foodImage'>AAA</div>
-              <div className='foodImage'>AAA</div>
-              <div className='foodImage'>AAA</div>
-              <div className='foodImage'>AAA</div>
-              <div className='foodImage'>AAA</div>
-              <a className='nextArrow' href='#foodBar-2'>
-                <FontAwesomeIcon className='arrowIcon' icon={faChevronRight} />
-              </a>
-            </div>
-            <div className='foodBar' id='foodBar-2'>
-              <a className='previousArrow' href='#foodBar-1'>
-                <FontAwesomeIcon className='arrowIcon' icon={faChevronLeft} />
-              </a>
-              <div className='foodImage'>BBB</div>
-              <div className='foodImage'>BBB</div>
-              <div className='foodImage'>BBB</div>
-              <div className='foodImage'>BBB</div>
-              <div className='foodImage'>BBB</div>
-              <div className='foodImage'>BBB</div>
-              <a className='nextArrow' href='#foodBar-3'>
-                <FontAwesomeIcon className='arrowIcon' icon={faChevronRight} />
-              </a>
-            </div>
-            <div className='foodBar' id='foodBar-3'>
-              <a className='previousArrow' href='#foodBar-2'>
-                <FontAwesomeIcon className='arrowIcon' icon={faChevronLeft} />
-              </a>
-              <div className='foodImage'>CCC</div>
-              <div className='foodImage'>CCC</div>
-              <div className='foodImage'>CCC</div>
-              <div className='foodImage'>CCC</div>
-              <div className='foodImage'>CCC</div>
-              <div className='foodImage'>CCC</div>
-              <a className='nextArrow' href='#foodBar-4'>
-                <FontAwesomeIcon className='arrowIcon' icon={faChevronRight}/>
-              </a>
-            </div>
-            <div className='foodBar' id='foodBar-4'>
-              <a className='previousArrow' href='#foodBar-3'>
-                <FontAwesomeIcon className='arrowIcon' icon={faChevronLeft} />
-              </a>
-              <div className='foodImage'>DDD</div>
-              <div className='foodImage'>DDD</div>
-              <div className='foodImage'>DDD</div>
-              <div className='foodImage'>DDD</div>
-              <div className='foodImage'>DDD</div>
-              <div className='foodImage'>DDD</div>
-              <a className='nextArrow' href='#foodBar-1'>
-                <FontAwesomeIcon className='arrowIcon' icon={faChevronRight} />
-              </a>
+        <div className='foodCarousel'>
+          <h2 
+          className='foodSectionTitle' 
+          style={{marginLeft:'1%'}}
+          >
+            Ultraprocessados
+          </h2>
+          <div className='foodContainer'>
+            <div className='foodSection'>
+              <div className='foodBar' id='foodBar-1'>
+                <div className='foodImage'>AAA</div>
+                <div className='foodImage'>AAA</div>
+                <div className='foodImage'>AAA</div>
+                <div className='foodImage'>AAA</div>
+                <div className='foodImage'>AAA</div>
+                <div className='foodImage'>AAA</div>
+                <a className='nextArrow' href='#foodBar-2'>
+                  <FontAwesomeIcon className='arrowIcon' icon={faChevronRight} />
+                </a>
+              </div>
+              <div className='foodBar' id='foodBar-2'>
+                <a className='previousArrow' href='#foodBar-1'>
+                  <FontAwesomeIcon className='arrowIcon' icon={faChevronLeft} />
+                </a>
+                <div className='foodImage'>BBB</div>
+                <div className='foodImage'>BBB</div>
+                <div className='foodImage'>BBB</div>
+                <div className='foodImage'>BBB</div>
+                <div className='foodImage'>BBB</div>
+                <div className='foodImage'>BBB</div>
+                <a className='nextArrow' href='#foodBar-3'>
+                  <FontAwesomeIcon className='arrowIcon' icon={faChevronRight} />
+                </a>
+              </div>
+              <div className='foodBar' id='foodBar-3'>
+                <a className='previousArrow' href='#foodBar-2'>
+                  <FontAwesomeIcon className='arrowIcon' icon={faChevronLeft} />
+                </a>
+                <div className='foodImage'>CCC</div>
+                <div className='foodImage'>CCC</div>
+                <div className='foodImage'>CCC</div>
+                <div className='foodImage'>CCC</div>
+                <div className='foodImage'>CCC</div>
+                <div className='foodImage'>CCC</div>
+                <a className='nextArrow' href='#foodBar-4'>
+                  <FontAwesomeIcon className='arrowIcon' icon={faChevronRight}/>
+                </a>
+              </div>
+              <div className='foodBar' id='foodBar-4'>
+                <a className='previousArrow' href='#foodBar-3'>
+                  <FontAwesomeIcon className='arrowIcon' icon={faChevronLeft} />
+                </a>
+                <div className='foodImage'>DDD</div>
+                <div className='foodImage'>DDD</div>
+                <div className='foodImage'>DDD</div>
+                <div className='foodImage'>DDD</div>
+                <div className='foodImage'>DDD</div>
+                <div className='foodImage'>DDD</div>
+                <a className='nextArrow' href='#foodBar-1'>
+                  <FontAwesomeIcon className='arrowIcon' icon={faChevronRight} />
+                </a>
+              </div>
             </div>
           </div>
         </div>
-        
+        <div className='foodCarousel'>
+          <h2 
+          className='foodSectionTitle' 
+          style={{marginLeft:'1%'}}
+          >
+            Ultraprocessados
+          </h2>
+          <div className='foodContainer'>
+            <div className='foodSection'>
+              <div className='foodBar' id='foodBar-5'>
+                <div className='foodImage'>AAA</div>
+                <div className='foodImage'>AAA</div>
+                <div className='foodImage'>AAA</div>
+                <div className='foodImage'>AAA</div>
+                <div className='foodImage'>AAA</div>
+                <div className='foodImage'>AAA</div>
+                <a className='nextArrow' href='#foodBar-6'>
+                  <FontAwesomeIcon className='arrowIcon' icon={faChevronRight} />
+                </a>
+              </div>
+              <div className='foodBar' id='foodBar-6'>
+                <a className='previousArrow' href='#foodBar-5'>
+                  <FontAwesomeIcon className='arrowIcon' icon={faChevronLeft} />
+                </a>
+                <div className='foodImage'>BBB</div>
+                <div className='foodImage'>BBB</div>
+                <div className='foodImage'>BBB</div>
+                <div className='foodImage'>BBB</div>
+                <div className='foodImage'>BBB</div>
+                <div className='foodImage'>BBB</div>
+                <a className='nextArrow' href='#foodBar-7'>
+                  <FontAwesomeIcon className='arrowIcon' icon={faChevronRight} />
+                </a>
+              </div>
+              <div className='foodBar' id='foodBar-7'>
+                <a className='previousArrow' href='#foodBar-6'>
+                  <FontAwesomeIcon className='arrowIcon' icon={faChevronLeft} />
+                </a>
+                <div className='foodImage'>CCC</div>
+                <div className='foodImage'>CCC</div>
+                <div className='foodImage'>CCC</div>
+                <div className='foodImage'>CCC</div>
+                <div className='foodImage'>CCC</div>
+                <div className='foodImage'>CCC</div>
+                <a className='nextArrow' href='#foodBar-8'>
+                  <FontAwesomeIcon className='arrowIcon' icon={faChevronRight}/>
+                </a>
+              </div>
+              <div className='foodBar' id='foodBar-8'>
+                <a className='previousArrow' href='#foodBar-7'>
+                  <FontAwesomeIcon className='arrowIcon' icon={faChevronLeft} />
+                </a>
+                <div className='foodImage'>DDD</div>
+                <div className='foodImage'>DDD</div>
+                <div className='foodImage'>DDD</div>
+                <div className='foodImage'>DDD</div>
+                <div className='foodImage'>DDD</div>
+                <div className='foodImage'>DDD</div>
+                <a className='nextArrow' href='#foodBar-5'>
+                  <FontAwesomeIcon className='arrowIcon' icon={faChevronRight} />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    );
+    ); 
   }
   
   export default WelcomePage;
