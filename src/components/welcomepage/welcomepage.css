@@ -239,6 +239,8 @@ width: 100%;
     font-size: 35px;
     color: #000000;
 
+    margin-top: 25px;
+
     background-color: white;
     border: 1px solid lightgray;
     border-radius: 25px;
@@ -257,6 +259,10 @@ width: 100%;
     right: 0;
     top: 0;
     bottom: 0;
+}
+
+.arrowIcon {
+    margin-left: 10px;
 }
 
 .foodBar:target :where(.nextArrow, .previousArrow) {
