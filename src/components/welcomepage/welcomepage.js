@@ -190,8 +190,7 @@ function WelcomePage() {
             </div>
           </div>
         </div>
-        <svg>
-        </svg>
+        
       </div>
     );
   }

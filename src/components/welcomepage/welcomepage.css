@@ -236,8 +236,15 @@ width: 100%;
     position: absolute;
     align-items: center;
     
-    font-size: 85px;
+    font-size: 35px;
     color: #000000;
+
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 25px;
+
+    width: 45px;
+    height: 45px;
 }
 
 .previousArrow {
