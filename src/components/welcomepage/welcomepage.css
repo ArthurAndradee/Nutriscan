@@ -96,7 +96,8 @@ width: 100%;
     width: 98vw;
 
     margin-top: 10px;
-    margin-left: 1vw;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
 
     background: rgb(1,175,76);
     background: linear-gradient(90deg, rgba(1,175,76,1) 36%, rgba(0,82,71,1) 90%);
@@ -202,8 +203,6 @@ width: 100%;
     position: relative;
 
     margin-left: 1%;
-
-    border: 1px solid red;
 }
 
 .foodSection, 
@@ -240,7 +239,7 @@ width: 100%;
     position: absolute;
     align-items: center;
     
-    font-size: 35px;
+    font-size: 20px;
     color: #000000;
 
     margin-top: 25px;
@@ -277,6 +276,6 @@ width: 100%;
     display: flex;
 }
 
-#foodBar-1, #foodBar-5 {
+#foodBar-1, #foodBar-5, #foodBar-9 {
     margin: 0;
 }
