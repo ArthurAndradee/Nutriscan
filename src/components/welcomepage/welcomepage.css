@@ -239,7 +239,7 @@ width: 100%;
     position: absolute;
     align-items: center;
     
-    font-size: 20px;
+    font-size: 15px;
     color: #000000;
 
     margin-top: 25px;
@@ -248,8 +248,8 @@ width: 100%;
     border: 1px solid lightgray;
     border-radius: 25px;
 
-    width: 45px;
-    height: 45px;
+    width: 30px;
+    height: 30px;
 }
 
 .previousArrow {
