@@ -135,7 +135,6 @@ function WelcomePage() {
         <div className='foodCarousel'>
           <h2 
           className='foodSectionTitle' 
-          style={{marginLeft:'1%'}}
           >
             Ultraprocessados
           </h2>
@@ -200,7 +199,6 @@ function WelcomePage() {
         <div className='foodCarousel'>
           <h2 
           className='foodSectionTitle' 
-          style={{marginLeft:'1%'}}
           >
             Naturais
           </h2>
