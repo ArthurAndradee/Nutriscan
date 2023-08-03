@@ -33,20 +33,56 @@ function WelcomePage() {
           </nav>
             <div className='navBar'>
               <div className='navCategory'>
-                <h4 className='categoryTitle'>Carboidratos</h4>
-                <button className='categoryButton'></button>
+                <div>
+                  <h4 className='categoryTitle'>Carboidratos</h4>
+                  <button className='categoryButton'></button>
+                </div>
+                <div>
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </div>
               </div>
               <div className='navCategory'>
-                <h4 className='categoryTitle'>Proteínas</h4>
-                <button className='categoryButton'></button>
+                <div>
+                  <h4 className='categoryTitle'>Proteínas</h4>
+                  <button className='categoryButton'></button>
+                </div>
+                <div>
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </div>
               </div>
               <div className='navCategory'>
-                <h4 className='categoryTitle'>Gorduras</h4>
-                <button className='categoryButton'></button>
+                <div>
+                  <h4 className='categoryTitle'>Gorduras</h4>
+                  <button className='categoryButton'></button>
+                </div>
+                <div>
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </div>
               </div>
               <div className='navCategory'>
-                <h4 className='categoryTitle'>Frutas</h4>
-                <button className='categoryButton'></button>
+                <div>
+                  <h4 className='categoryTitle'>Frutas</h4>
+                  <button className='categoryButton'></button>
+                </div>
+                <div>
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </div>
               </div>
             </div>
             <div className='userNav'>
