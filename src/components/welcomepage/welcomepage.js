@@ -33,17 +33,8 @@ function WelcomePage() {
           </nav>
             <div className='navBar'>
               <div className='navCategory'>
-                <div>
                   <h4 className='categoryTitle'>Carboidratos</h4>
                   <button className='categoryButton'></button>
-                </div>
-                <div>
-                  <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                  </ul>
-                </div>
               </div>
               <div className='navCategory'>
                 <div>
@@ -51,11 +42,6 @@ function WelcomePage() {
                   <button className='categoryButton'></button>
                 </div>
                 <div>
-                  <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                  </ul>
                 </div>
               </div>
               <div className='navCategory'>
