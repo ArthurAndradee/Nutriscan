@@ -42,6 +42,11 @@ function WelcomePage() {
                   <button className='categoryButton'></button>
                 </div>
                 <div>
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
                 </div>
               </div>
               <div className='navCategory'>

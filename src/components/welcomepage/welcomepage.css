@@ -89,6 +89,7 @@ width: 100%;
     font-size: 180%;
     -webkit-text-stroke: 1px background-color;
     cursor: pointer;
+    margin-right: 5%;
 }
 
 .mainSection {
