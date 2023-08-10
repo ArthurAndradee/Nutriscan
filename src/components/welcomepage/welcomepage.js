@@ -107,13 +107,13 @@ function WelcomePage() {
               <button className='foodButton'>
                 <FontAwesomeIcon icon={faPepperHot} style={{color: "#000000",}} />
               </button>
-              <p className='foodName'>Vegetais</p>
+              <p className='foodName'>Legumes</p>
             </div>
             <div>
               <button className='foodButton'>
                 <FontAwesomeIcon icon={faAppleWhole} style={{color: "#000000",}} />
               </button>
-              <p className='foodName'>Frutas</p>
+              <p className='foodName'>Frutos</p>
             </div>
             <div>
               <button className='foodButton'>
