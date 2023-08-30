@@ -143,7 +143,7 @@ function WelcomePage() {
               <button className='foodButton'>
                 <FontAwesomeIcon icon={faBurger} style={{color: "#000000",}}/>
               </button>
-              <p className='foodName'>Ultraprocessados</p>
+              <p className='foodName'>Fast Food</p>
             </div>
             <div>
               <button className='foodButton'>
