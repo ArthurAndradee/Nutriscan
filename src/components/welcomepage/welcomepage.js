@@ -41,39 +41,39 @@ function WelcomePage() {
                   <h4 className='categoryTitle'>Proteínas</h4>
                   <button className='categoryButton'></button>
                 </div>
-                <div>
+                {/* <div>
                   <ul>
                     <li></li>
                     <li></li>
                     <li></li>
                   </ul>
-                </div>
+                </div> */}
               </div>
               <div className='navCategory'>
                 <div>
                   <h4 className='categoryTitle'>Gorduras</h4>
                   <button className='categoryButton'></button>
                 </div>
-                <div>
+                {/* <div>
                   <ul>
                     <li></li>
                     <li></li>
                     <li></li>
                   </ul>
-                </div>
+                </div> */}
               </div>
               <div className='navCategory'>
                 <div>
                   <h4 className='categoryTitle'>Frutas</h4>
                   <button className='categoryButton'></button>
                 </div>
-                <div>
+                {/* <div>
                   <ul>
                     <li></li>
                     <li></li>
                     <li></li>
                   </ul>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className='userNav'>
