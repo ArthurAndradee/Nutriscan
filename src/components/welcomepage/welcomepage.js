@@ -82,6 +82,7 @@ function WelcomePage() {
               </button>
               <button className='navIcon'>
                 <FontAwesomeIcon icon={faBell} />
+                
               </button>
               <button className='navIcon'>
                 <FontAwesomeIcon icon={faCircleUser} />
