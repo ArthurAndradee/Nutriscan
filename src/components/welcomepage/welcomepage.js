@@ -66,7 +66,7 @@ function WelcomePage() {
               <div className='navCategory'>
                 <div>
                   <h4 className='categoryTitle'>Frutas</h4>
-                  <button className='categoryButton'></button>
+                  <button className='categoryButton'> </button>
                 </div>
                 {/* <div>
                   <ul>
