@@ -61,7 +61,6 @@ function WelcomePage() {
                     <li></li>
                   </ul>
                 </div> */}
-                
               </div>
               <div className='navCategory'>
                 <div>
