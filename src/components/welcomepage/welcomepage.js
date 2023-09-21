@@ -62,6 +62,7 @@ function WelcomePage() {
                   </ul>
                 </div> */}
               </div>
+              
               <div className='navCategory'>
                 <div>
                   <h4 className='categoryTitle'>Frutas</h4>
