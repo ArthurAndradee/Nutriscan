@@ -31,52 +31,34 @@ function WelcomePage() {
             src='https://i.imgur.com/v52Jw20.png'
             />
           </nav>
-            <div className='navBar'>
-              <div className='navCategory'>
-                  <h4 className='categoryTitle'>Carboidratos</h4>
-                  <button className='categoryButton'></button>
-              </div>
-              <div className='navCategory'>
-                <div>
-                  <h4 className='categoryTitle'>Proteínas</h4>
-                  <button className='categoryButton'></button>
-                </div>
-                {/* <div>
-                  <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                  </ul>
-                </div> */}
-              </div>
-              <div className='navCategory'>
-                <div>
-                  <h4 className='categoryTitle'>Gorduras</h4>
-                  <button className='categoryButton'></button>
-                </div>
-                {/* <div>
-                  <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                  </ul>
-                </div> */}
-              </div>
-              
-              <div className='navCategory'>
-                <div>
-                  <h4 className='categoryTitle'>Frutas</h4>
-                  <button className='categoryButton'> </button>
-                </div>
-                {/* <div>
-                  <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                  </ul>
-                </div> */}
-              </div>
-            </div>
+            <nav className='navBar'>
+              {/* <ul className='navUnorderedList'> */}
+                <li className='navCategory'>
+                  <a className='categoryBox' href=''>
+                    <h4 className='categoryTitle'>Carboidratos</h4>
+                    <button className='categoryButton'></button>
+                  </a>
+                </li>
+                <li className='navCategory'>
+                  <a className='categoryBox' href=''>
+                    <h4 className='categoryTitle'>Proteínas</h4>
+                    <button className='categoryButton'></button>
+                  </a>
+                </li>
+                <li className='navCategory'>
+                  <a className='categoryBox' href=''>
+                    <h4 className='categoryTitle'>Gorduras</h4>
+                    <button className='categoryButton'></button>
+                  </a>
+                </li>
+                <li className='navCategory'>
+                  <a className='categoryBox' href=''>
+                    <h4 className='categoryTitle'>Proteínas</h4>
+                    <button className='categoryButton'></button>
+                  </a>
+                </li>
+              {/* </ul> */}
+            </nav>
             <div className='userNav'>
               <button className='navIcon'>
                 <FontAwesomeIcon icon={faBookmark} />
