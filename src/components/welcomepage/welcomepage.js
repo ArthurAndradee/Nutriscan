@@ -31,34 +31,34 @@ function WelcomePage() {
             src='https://i.imgur.com/v52Jw20.png'
             />
           </nav>
-            <nav className='navBar'>
-              {/* <ul className='navUnorderedList'> */}
-                <li className='navCategory'>
-                  <a className='categoryBox' href=''>
-                    <h4 className='categoryTitle'>Carboidratos</h4>
-                    <button className='categoryButton'></button>
-                  </a>
-                </li>
-                <li className='navCategory'>
-                  <a className='categoryBox' href=''>
-                    <h4 className='categoryTitle'>Proteínas</h4>
-                    <button className='categoryButton'></button>
-                  </a>
-                </li>
-                <li className='navCategory'>
-                  <a className='categoryBox' href=''>
-                    <h4 className='categoryTitle'>Gorduras</h4>
-                    <button className='categoryButton'></button>
-                  </a>
-                </li>
-                <li className='navCategory'>
-                  <a className='categoryBox' href=''>
-                    <h4 className='categoryTitle'>Proteínas</h4>
-                    <button className='categoryButton'></button>
-                  </a>
-                </li>
-              {/* </ul> */}
-            </nav>
+          <nav className='navBar'>
+            <ul className='navBarList'>
+              <li className='navCategory'>
+                <a className='categoryBox' href=''>
+                  <h4 className='categoryTitle'>Carboidratos</h4>
+                  <button className='categoryButton'></button>
+                </a>
+              </li>
+              <li className='navCategory'>
+                <a className='categoryBox' href=''>
+                  <h4 className='categoryTitle'>Proteínas</h4>
+                  <button className='categoryButton'></button>
+                </a>
+              </li>
+              <li className='navCategory'>
+                <a className='categoryBox' href=''>
+                  <h4 className='categoryTitle'>Gorduras</h4>
+                  <button className='categoryButton'></button>
+                </a>
+              </li>
+              <li className='navCategory'>
+                <a className='categoryBox' href=''>
+                  <h4 className='categoryTitle'>Proteínas</h4>
+                  <button className='categoryButton'></button>
+                </a>
+              </li>
+            </ul>
+          </nav>
             <div className='userNav'>
               <button className='navIcon'>
                 <FontAwesomeIcon icon={faBookmark} />

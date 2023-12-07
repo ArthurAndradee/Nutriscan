@@ -2,6 +2,7 @@
 
 * {
     font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
 }
 
 .page {
@@ -42,10 +43,12 @@ width: 100%;
     display: flex;
 
     width: 100%;
+
+    border: 5px solid black;
 }
 
-.navUnorderedList {
-
+.navBarList {
+    border: 5px solid red;
 }
 
 .categoryBox {
