@@ -65,7 +65,6 @@ function WelcomePage() {
               </button>
               <button className='navIcon'>
                 <FontAwesomeIcon icon={faBell} />
-                
               </button>
               <button className='navIcon'>
                 <FontAwesomeIcon icon={faCircleUser} />
@@ -75,7 +74,7 @@ function WelcomePage() {
           </nav>
         <section className='mainSection'>
           <h1 className='mainSectionTitle'>
-            Pesquisará o que hoje?
+            Pesquise seu alimento
           </h1>
           <div className='inputDiv'>
             <div className='faIconDiv'>

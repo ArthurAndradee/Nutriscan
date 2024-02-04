@@ -57,6 +57,10 @@
     display:inline-flex;
 }
 
+.categoryBox:hover {
+    color: rgb(0, 178, 107);
+}
+
 .navCategory {
     display: inline-block;
     margin-left: 25px;
@@ -115,6 +119,7 @@
     margin-top: 10px;
     margin-left: 0.5vw;
     margin-right: 0.5vw;
+    margin-bottom: 1%;
 
     background: rgb(1,175,76);
     background: linear-gradient(90deg, rgba(1,175,76,1) 36%, rgba(0,82,71,1) 90%);
@@ -185,7 +190,7 @@
 
 .mainSectionButtons {
     height: 100px;
-    width: 1200px;
+    width: 100%;
 
     display: inline-flex;
     justify-content: space-around;
