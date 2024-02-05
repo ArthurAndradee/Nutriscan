@@ -38,6 +38,11 @@ function WelcomePage() {
                   <h4 className='categoryTitle'>Carboidratos</h4>
                   <button className='categoryButton'></button>
                 </a>
+                <div className='dropdownMenu'>
+                  <a href='' className='categoryDropdown'>Teste 1</a>
+                  <a href='' className='categoryDropdown'>Teste 2</a>
+                  <a href='' className='categoryDropdown'>Teste 3</a>
+                </div>
               </li>
               <li className='navCategory'>
                 <a className='categoryBox' href=''>
