@@ -34,9 +34,9 @@ function WelcomePage() {
           <nav className='navBar'>
             <ul className='navBarList'>
               <li className='navCategory'>
-                <div className='categoryBox' href=''>
+                <div className='categoryBox'>
                   <h4 className='categoryTitle'>Carboidratos</h4>
-                  <button className='categoryButton'></button>
+                  <div className='categoryButton'></div>
                 </div>
                 <div className='dropdownMenu'>
                   <a href='' className='categoryDropdown'>Naturais</a>
@@ -47,42 +47,54 @@ function WelcomePage() {
               <li className='navCategory'>
                 <a className='categoryBox' href=''>
                   <h4 className='categoryTitle'>Proteínas</h4>
-                  <button className='categoryButton'></button>
+                  <div className='categoryButton'></div>
                 </a>
                 <div className='dropdownMenu'>
-                  <a href='' className='categoryDropdown'>Naturais</a>
-                  <a href='' className='categoryDropdown'>Processadas</a>
-                  <a href='' className='categoryDropdown'>Ultraprocessadas</a>
+                  <a href='' className='categoryDropdown'>Carnes vermelhas</a>
+                  <a href='' className='categoryDropdown'>Carnes brancas</a>
+                  <a href='' className='categoryDropdown'>Peixes</a>
+                  <a href='' className='categoryDropdown'>Outros</a>
                 </div>
               </li>
               <li className='navCategory'>
                 <a className='categoryBox' href=''>
                   <h4 className='categoryTitle'>Gorduras</h4>
-                  <button className='categoryButton'></button>
+                  <div className='categoryButton'></div>
                 </a>
                 <div className='dropdownMenu'>
                   <a href='' className='categoryDropdown'>Naturais</a>
-                  <a href='' className='categoryDropdown'>Processadas</a>
-                  <a href='' className='categoryDropdown'>Ultraprocessadas</a>
+                  <a href='' className='categoryDropdown'>Suplementos</a>
+                  <a href='' className='categoryDropdown'>Caseiras</a>
                 </div>
               </li>
               <li className='navCategory'>
                 <a className='categoryBox' href=''>
-                  <h4 className='categoryTitle'>Proteínas</h4>
-                  <button className='categoryButton'></button>
+                  <h4 className='categoryTitle'>Bebidas</h4>
+                  <div className='categoryButton'></div>
                 </a>
                 <div className='dropdownMenu'>
                   <a href='' className='categoryDropdown'>Naturais</a>
+                  <a href='' className='categoryDropdown'>Alcólicas</a>
+                  <a href='' className='categoryDropdown'>Estimulantes</a>
                   <a href='' className='categoryDropdown'>Processadas</a>
-                  <a href='' className='categoryDropdown'>Ultraprocessadas</a>
+                  <a href='' className='categoryDropdown'>Ultrarocessadas</a>
                 </div>
               </li>
             </ul>
           </nav>
             <div className='userNav'>
-              <a href='' className='navIcon'>
-                <FontAwesomeIcon icon={faCircleUser} />
-              </a>
+              <ul className='navBarList'>
+                <li className='navCategory'>
+                  <a href='' className='navIcon'>
+                    <FontAwesomeIcon icon={faCircleUser} />
+                  </a>
+                  <div className='dropdownMenu'>
+                    <a>AAA</a>
+                    <a>AAA</a>
+                    <a>AAA</a>
+                  </div>
+                </li>
+              </ul>
             </div>
             </header>
           </nav>
