@@ -34,14 +34,14 @@ function WelcomePage() {
           <nav className='navBar'>
             <ul className='navBarList'>
               <li className='navCategory'>
-                <a className='categoryBox' href=''>
+                <div className='categoryBox' href=''>
                   <h4 className='categoryTitle'>Carboidratos</h4>
                   <button className='categoryButton'></button>
-                </a>
+                </div>
                 <div className='dropdownMenu'>
-                  <a href='' className='categoryDropdown'>Teste 1</a>
-                  <a href='' className='categoryDropdown'>Teste 2</a>
-                  <a href='' className='categoryDropdown'>Teste 3</a>
+                  <a href='' className='categoryDropdown'>Naturais</a>
+                  <a href='' className='categoryDropdown'>Processados</a>
+                  <a href='' className='categoryDropdown'>Ultraprocessados</a>
                 </div>
               </li>
               <li className='navCategory'>
@@ -49,31 +49,40 @@ function WelcomePage() {
                   <h4 className='categoryTitle'>Proteínas</h4>
                   <button className='categoryButton'></button>
                 </a>
+                <div className='dropdownMenu'>
+                  <a href='' className='categoryDropdown'>Naturais</a>
+                  <a href='' className='categoryDropdown'>Processadas</a>
+                  <a href='' className='categoryDropdown'>Ultraprocessadas</a>
+                </div>
               </li>
               <li className='navCategory'>
                 <a className='categoryBox' href=''>
                   <h4 className='categoryTitle'>Gorduras</h4>
                   <button className='categoryButton'></button>
                 </a>
+                <div className='dropdownMenu'>
+                  <a href='' className='categoryDropdown'>Naturais</a>
+                  <a href='' className='categoryDropdown'>Processadas</a>
+                  <a href='' className='categoryDropdown'>Ultraprocessadas</a>
+                </div>
               </li>
               <li className='navCategory'>
                 <a className='categoryBox' href=''>
                   <h4 className='categoryTitle'>Proteínas</h4>
                   <button className='categoryButton'></button>
                 </a>
+                <div className='dropdownMenu'>
+                  <a href='' className='categoryDropdown'>Naturais</a>
+                  <a href='' className='categoryDropdown'>Processadas</a>
+                  <a href='' className='categoryDropdown'>Ultraprocessadas</a>
+                </div>
               </li>
             </ul>
           </nav>
             <div className='userNav'>
-              <button className='navIcon'>
-                <FontAwesomeIcon icon={faBookmark} />
-              </button>
-              <button className='navIcon'>
-                <FontAwesomeIcon icon={faBell} />
-              </button>
-              <button className='navIcon'>
+              <a href='' className='navIcon'>
                 <FontAwesomeIcon icon={faCircleUser} />
-              </button>
+              </a>
             </div>
             </header>
           </nav>
@@ -82,86 +91,84 @@ function WelcomePage() {
             Pesquise seu alimento
           </h1>
           <div className='inputDiv'>
-            <div className='faIconDiv'>
+            <a className='submitButton'>
               <FontAwesomeIcon style={{fontSize:'22px', marginTop:'10px', color:'#6e6e6e'}} icon={faMagnifyingGlass} />
-            </div>
+            </a>
             <input className='mainSectionInput' type='text' 
             placeholder='Sua pesquisa aqui'
             />
           </div>
           <div style={{height:'10%'}}></div>
           <div className='mainSectionButtons'>
-            <div>
+            <a href=''>
               <button className='foodButton'>
-                <FontAwesomeIcon icon={faPepperHot} style={{color: "#000000",}} />
+                <FontAwesomeIcon icon={faPepperHot}/>
               </button>
               <p className='foodName'>Legumes</p>
-            </div>
-            <div>
+            </a>
+            <a href=''>
               <button className='foodButton'>
-                <FontAwesomeIcon icon={faAppleWhole} style={{color: "#000000",}} />
+                <FontAwesomeIcon icon={faAppleWhole}/>
               </button>
               <p className='foodName'>Frutos</p>
-            </div>
-            <div>
+            </a>
+            <a href=''>
               <button className='foodButton'>
-                <FontAwesomeIcon icon={faWheatAwn} style={{color: "#000000",}} />
+                <FontAwesomeIcon icon={faWheatAwn}/>
               </button>
               <p className='foodName'>Carboidratos</p>
-            </div>
-            <div>              
+            </a>
+            <a href=''>              
               <button className='foodButton'>
-                <FontAwesomeIcon icon={faBacon} style={{color: "#000000",}} />
+                <FontAwesomeIcon icon={faBacon}/>
               </button>
               <p className='foodName'>Carnes</p>
-            </div>
-            <div>
+            </a>
+            <a href=''>
               <button className='foodButton'>
-                <FontAwesomeIcon icon={faShrimp} style={{color: "#000000",}} />
+                <FontAwesomeIcon icon={faShrimp}/>
               </button>
               <p className='foodName'>Pescados</p>
-            </div>
-            <div>
+            </a>
+            <a href=''>
               <button className='foodButton'>
-                <FontAwesomeIcon icon={faCheese} style={{color: "#000000",}}/>
+                <FontAwesomeIcon icon={faCheese}/>
               </button>
               <p className='foodName'>Laticínios</p>
-            </div>
-            <div>
+            </a>
+            <a href=''>
               <button className='foodButton'>
-                <FontAwesomeIcon icon={faBurger} style={{color: "#000000",}}/>
+                <FontAwesomeIcon icon={faBurger}/>
               </button>
               <p className='foodName'>Fast Food</p>
-            </div>
-            <div>
+            </a>
+            <a href=''>
               <button className='foodButton'>
-                <FontAwesomeIcon icon={faCakeCandles} style={{color: "#000000",}}/>
+                <FontAwesomeIcon icon={faCakeCandles}/>
               </button>
               <p className='foodName'>Açucarados</p>
-            </div>
-            <div>
+            </a>
+            <a href=''>
               <button className='foodButton'>
-                <FontAwesomeIcon icon={faQuestion} style={{color: "#000000",}}/>
+                <FontAwesomeIcon icon={faQuestion}/>
               </button>
               <p className='foodName'>Em Dúvida</p>
-            </div>
+            </a>
           </div>
         </section>
-        <div className='foodCarousel'>
-          <h2 
-          className='foodSectionTitle' 
-          >
+        <div>
+          <h2 className='foodSectionTitle'>
             Ultraprocessados
           </h2>
           <div className='foodContainer'>
             <div className='foodSection'>
               <div className='foodBar' id='foodBar-1'>
-                <div className='foodImage'>AAA</div>
-                <div className='foodImage'>AAA</div>
-                <div className='foodImage'>AAA</div>
-                <div className='foodImage'>AAA</div>
-                <div className='foodImage'>AAA</div>
-                <div className='foodImage'>AAA</div>
+                <div>AAA</div>
+                <div>AAA</div>
+                <div>AAA</div>
+                <div>AAA</div>
+                <div>AAA</div>
+                <div>AAA</div>
                 <a className='nextArrow' href='#foodBar-2'>
                   <FontAwesomeIcon className='arrowIcon' icon={faChevronRight} />
                 </a>
@@ -170,12 +177,12 @@ function WelcomePage() {
                 <a className='previousArrow' href='#foodBar-1'>
                   <FontAwesomeIcon className='arrowIcon' icon={faChevronLeft} />
                 </a>
-                <div className='foodImage'>BBB</div>
-                <div className='foodImage'>BBB</div>
-                <div className='foodImage'>BBB</div>
-                <div className='foodImage'>BBB</div>
-                <div className='foodImage'>BBB</div>
-                <div className='foodImage'>BBB</div>
+                <div>BBB</div>
+                <div>BBB</div>
+                <div>BBB</div>
+                <div>BBB</div>
+                <div>BBB</div>
+                <div>BBB</div>
                 <a className='nextArrow' href='#foodBar-3'>
                   <FontAwesomeIcon className='arrowIcon' icon={faChevronRight} />
                 </a>
@@ -184,12 +191,12 @@ function WelcomePage() {
                 <a className='previousArrow' href='#foodBar-2'>
                   <FontAwesomeIcon className='arrowIcon' icon={faChevronLeft} />
                 </a>
-                <div className='foodImage'>CCC</div>
-                <div className='foodImage'>CCC</div>
-                <div className='foodImage'>CCC</div>
-                <div className='foodImage'>CCC</div>
-                <div className='foodImage'>CCC</div>
-                <div className='foodImage'>CCC</div>
+                <div>CCC</div>
+                <div>CCC</div>
+                <div>CCC</div>
+                <div>CCC</div>
+                <div>CCC</div>
+                <div>CCC</div>
                 <a className='nextArrow' href='#foodBar-4'>
                   <FontAwesomeIcon className='arrowIcon' icon={faChevronRight}/>
                 </a>
@@ -198,12 +205,12 @@ function WelcomePage() {
                 <a className='previousArrow' href='#foodBar-3'>
                   <FontAwesomeIcon className='arrowIcon' icon={faChevronLeft} />
                 </a>
-                <div className='foodImage'>DDD</div>
-                <div className='foodImage'>DDD</div>
-                <div className='foodImage'>DDD</div>
-                <div className='foodImage'>DDD</div>
-                <div className='foodImage'>DDD</div>
-                <div className='foodImage'>DDD</div>
+                <div>DDD</div>
+                <div>DDD</div>
+                <div>DDD</div>
+                <div>DDD</div>
+                <div>DDD</div>
+                <div>DDD</div>
                 <a className='nextArrow' href='#foodBar-1'>
                   <FontAwesomeIcon className='arrowIcon' icon={faChevronRight} />
                 </a>
@@ -211,7 +218,7 @@ function WelcomePage() {
             </div>
           </div>
         </div>
-        <div className='foodCarousel'>
+        <div>
           <h2 
           className='foodSectionTitle' 
           >
@@ -220,12 +227,12 @@ function WelcomePage() {
           <div className='foodContainer'>
             <div className='foodSection'>
               <div className='foodBar' id='foodBar-5'>
-                <div className='foodImage'>AAA</div>
-                <div className='foodImage'>AAA</div>
-                <div className='foodImage'>AAA</div>
-                <div className='foodImage'>AAA</div>
-                <div className='foodImage'>AAA</div>
-                <div className='foodImage'>AAA</div>
+                <div>AAA</div>
+                <div>AAA</div>
+                <div>AAA</div>
+                <div>AAA</div>
+                <div>AAA</div>
+                <div>AAA</div>
                 <a className='nextArrow' href='#foodBar-6'>
                   <FontAwesomeIcon className='arrowIcon' icon={faChevronRight} />
                 </a>
@@ -234,12 +241,12 @@ function WelcomePage() {
                 <a className='previousArrow' href='#foodBar-5'>
                   <FontAwesomeIcon className='arrowIcon' icon={faChevronLeft} />
                 </a>
-                <div className='foodImage'>BBB</div>
-                <div className='foodImage'>BBB</div>
-                <div className='foodImage'>BBB</div>
-                <div className='foodImage'>BBB</div>
-                <div className='foodImage'>BBB</div>
-                <div className='foodImage'>BBB</div>
+                <div>BBB</div>
+                <div>BBB</div>
+                <div>BBB</div>
+                <div>BBB</div>
+                <div>BBB</div>
+                <div>BBB</div>
                 <a className='nextArrow' href='#foodBar-7'>
                   <FontAwesomeIcon className='arrowIcon' icon={faChevronRight} />
                 </a>
@@ -248,12 +255,12 @@ function WelcomePage() {
                 <a className='previousArrow' href='#foodBar-6'>
                   <FontAwesomeIcon className='arrowIcon' icon={faChevronLeft} />
                 </a>
-                <div className='foodImage'>CCC</div>
-                <div className='foodImage'>CCC</div>
-                <div className='foodImage'>CCC</div>
-                <div className='foodImage'>CCC</div>
-                <div className='foodImage'>CCC</div>
-                <div className='foodImage'>CCC</div>
+                <div>CCC</div>
+                <div>CCC</div>
+                <div>CCC</div>
+                <div>CCC</div>
+                <div>CCC</div>
+                <div>CCC</div>
                 <a className='nextArrow' href='#foodBar-8'>
                   <FontAwesomeIcon className='arrowIcon' icon={faChevronRight}/>
                 </a>
@@ -262,12 +269,12 @@ function WelcomePage() {
                 <a className='previousArrow' href='#foodBar-7'>
                   <FontAwesomeIcon className='arrowIcon' icon={faChevronLeft} />
                 </a>
-                <div className='foodImage'>DDD</div>
-                <div className='foodImage'>DDD</div>
-                <div className='foodImage'>DDD</div>
-                <div className='foodImage'>DDD</div>
-                <div className='foodImage'>DDD</div>
-                <div className='foodImage'>DDD</div>
+                <div>DDD</div>
+                <div>DDD</div>
+                <div>DDD</div>
+                <div>DDD</div>
+                <div>DDD</div>
+                <div>DDD</div>
                 <a className='nextArrow' href='#foodBar-5'>
                   <FontAwesomeIcon className='arrowIcon' icon={faChevronRight} />
                 </a>
