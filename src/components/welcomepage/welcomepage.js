@@ -1,12 +1,10 @@
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable jsx-a11y/heading-has-content */
-import React from 'react';
+import React, { useState } from "react";
 import "./welcomepage.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { 
-  faBell, 
-  faCircleUser, 
-  faBookmark, 
+  faCircleUser,
   faMagnifyingGlass,
   faPepperHot,
   faAppleWhole,
@@ -22,6 +20,12 @@ import {
 } from '@fortawesome/free-solid-svg-icons'
 
 function WelcomePage() {
+  const [showUserOptions, SetshowUserOptions] = useState([]);
+
+  function openUserOptions() {
+    SetshowUserOptions (current => !current)
+  }
+
     return (
       <div className='page'>
         <nav className='headerNav'>
@@ -32,7 +36,7 @@ function WelcomePage() {
             />
           </nav>
           <nav className='navBar'>
-            <ul className='navBarList'>
+            <ul>
               <li className='navCategory'>
                 <div className='categoryBox'>
                   <h4 className='categoryTitle'>Carboidratos</h4>
@@ -82,22 +86,27 @@ function WelcomePage() {
               </li>
             </ul>
           </nav>
-            <div className='userNav'>
-              <ul className='navBarList'>
-                <li className='navCategory'>
-                  <a href='' className='navIcon'>
-                    <FontAwesomeIcon icon={faCircleUser} />
-                  </a>
-                  <div className='dropdownMenu'>
-                    <a>AAA</a>
-                    <a>AAA</a>
-                    <a>AAA</a>
+          <div className='userBar'>
+              <ul>
+                <li className='userCategory'>
+                  <div href='' className='navIcon'>
+                    <FontAwesomeIcon icon={faCircleUser} onClick={openUserOptions}/>
                   </div>
+                  { showUserOptions ? 
+                  <div>
+                  </div>
+                  :
+                  <div className='dropdownUser'>
+                    <a href='' className='categoryDropdown'>Opções</a> 
+                    <a href='' className='categoryDropdown'>Favoritos</a>
+                    <a href='' className='categoryDropdown'>Notificações</a> 
+                    <a href='' className='categoryDropdown'>Sair</a> 
+                  </div>}
                 </li>
               </ul>
             </div>
-            </header>
-          </nav>
+        </header>
+        </nav>
         <section className='mainSection'>
           <h1 className='mainSectionTitle'>
             Pesquise seu alimento
@@ -231,9 +240,7 @@ function WelcomePage() {
           </div>
         </div>
         <div>
-          <h2 
-          className='foodSectionTitle' 
-          >
+          <h2 className='foodSectionTitle'>
             Naturais
           </h2>
           <div className='foodContainer'>

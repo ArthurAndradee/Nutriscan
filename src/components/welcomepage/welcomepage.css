@@ -46,11 +46,15 @@
 .navBar {
     display: flex;
 
-    width: 100%;
+    width: 80%;
+}
+
+.userBar {
+    width: 10%;
 }
 
 .categoryBox {
-    color: black;
+    color: #000000;
     text-decoration: none;
     display:inline-flex;
 }
@@ -87,7 +91,7 @@
     background-color: transparent;
 
     padding: 5px;
-    border: solid black;
+    border: solid #000000;
     border-width: 0 2px 2px 0;
     display: inline-block;
     transform: rotate(45deg);
@@ -110,7 +114,7 @@
 
     width: 140px;
     background-color: #ffffff;
-    box-shadow: 0 0 2px black;
+    box-shadow: 0 0 2px #000000;
     
     padding-top: 7px;
     padding-bottom: 15px;
@@ -139,19 +143,46 @@
     margin-top: 6%;
 }
 
-.userNav {
-    height: 80%;
+.navCategory {
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 4.1%;
+}
+
+.userCategory {
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 4.1%;
+}
+
+.dropdownUser {
+    position: absolute;
 
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
 
-    margin-right: 1.6%;
+    margin-top: 8px;
 
-    border: 1px solid red;
+    right: 1.5%;
+
+    width: 140px;
+    background-color: #00602d;
+    box-shadow: 0 0 2px #000000;
+    
+    padding-top: 7px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+}
+
+.dropdownUser a {
+    margin-top: 6%;
+    color: #ffffff;
+
+    width: 60%;
 }
 
 .navIcon {
-    color: rgb(195, 195, 195); 
+    color: #c3c3c3; 
     background-color: transparent;
     
     font-size: 220%;
@@ -161,8 +192,7 @@
 
     height: 35px;
     
-    margin-right: 10%;
-    margin-top: 25%;
+    margin-top: 27%;
 }
 
 .mainSection {
@@ -175,7 +205,7 @@
     margin-bottom: 1%;
 
     background: #01af4c;
-    background: linear-gradient(90deg, rgba(1,175,76,1) 36%, rgba(0,82,71,1) 90%);
+    background: linear-gradient(90deg, #01af4c 36%, rgba(0,82,71,1) 90%);
     
     border-radius: 20px;
 
@@ -188,7 +218,7 @@
     margin-bottom: 30px;
 
     font-size: 35px;
-    color: white;
+    color: #ffffff;
 
     font-weight: 599;
     letter-spacing: 1px;
@@ -202,23 +232,23 @@
   
   @keyframes dots {
     0%, 20% {
-      color: rgba(0,0,0,0);
+      color: #00000000;
       text-shadow:
-        .25em 0 0 rgba(0,0,0,0),
-        .5em 0 0 rgba(0,0,0,0);}
+        .25em 0 0 #00000000,
+        .5em 0 0 #00000000;}
     40% {
-      color: white;
+      color: #ffffff;
       text-shadow:
-        .25em 0 0 rgba(0,0,0,0),
-        .5em 0 0 rgba(0,0,0,0);}
+        .25em 0 0 #00000000,
+        .5em 0 0 #00000000;}
     60% {
       text-shadow:
-        .25em 0 0 white,
-        .5em 0 0 rgba(0,0,0,0);}
+        .25em 0 0 #ffffff,
+        .5em 0 0 #00000000;}
     80%, 100% {
       text-shadow:
-        .25em 0 0 white,
-        .5em 0 0 white;}}
+        .25em 0 0 #ffffff,
+        .5em 0 0 #ffffff;}}
   
 
 .inputDiv{
@@ -236,7 +266,7 @@
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
 
-    background: white;
+    background: #ffffff;
     
     box-shadow: 0px 0px 2px 0px #000000;
 
@@ -251,9 +281,9 @@
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
   
-    color:black;
+    color:#000000;
   
-    background: white;
+    background: #ffffff;
     border: none;
     padding: 0;
     outline: inherit;
@@ -283,7 +313,7 @@
     height: 42px;
     width: 42px;
 
-    background-color: white;
+    background-color: #ffffff;
     color: #01af4c;
 
     border: none;
@@ -300,7 +330,7 @@
     transition: all 350ms;
 
     background-color: #01af4c;
-    color: white;
+    color: #ffffff;
 }
 
 .foodName {
@@ -344,7 +374,7 @@
 
 .foodBar div {
     height: 100px;
-    width: 170px;
+    width: 100%;
     
     background-color: #f1f1f1;
     
@@ -363,8 +393,8 @@
 
     margin-top: 35px;
 
-    background-color: white;
-    border: 1px solid lightgray;
+    background-color: #ffffff;
+    border: 1px solid #d3d3d3;
     border-radius: 25px;
 
     width: 30px;
