@@ -17,8 +17,7 @@
     width: 100%;
     height: 60px;
 
-    display: flex;
-    justify-content: space-around;
+    display: inline-block;
 
     -webkit-box-shadow: 0px 5px 25px -24px rgba(0,0,0,1);
     -moz-box-shadow: 0px 5px 25px -24px rgba(0,0,0,1);
@@ -26,56 +25,47 @@
 }
 
 .companyTitle {
-    width: 130px;
-    height: 40px;
+    margin-left: 1vw;
+    margin-top: 1.69vh;
 
-    margin: 15px 0 0 1%;
+    position: absolute;
 }
 
 .companyIcon {
-    height: 32px;
+    height: 33px;
     width: 130px;
 }
 
 .headerNav {
     height: 100%;
-
-    display:flex;
 }
 
 .navBar {
-    display: flex;
-
-    width: 80%;
+    display: inline-block;
+    margin-left: 10%;
 }
 
 .userBar {
-    width: 10%;
+    float: right;
+    
+    margin-right: 1.9%;
 }
 
 .categoryBox {
     color: #000000;
     text-decoration: none;
-    display:inline-flex;
 }
 
 .categoryBox:hover {
-    color: rgb(21, 191, 123);
-}
-
-.navCategory {
-    display: inline-block;
-    margin-left: 25px;
-    margin-top: 4.1%;
+    color: #15bf7b;
 }
 
 .categoryTitle {
-    font-weight: 500;
+    font-weight: 300;
+    font-size: 17px;
 
     cursor: default;
-    display: block;
-
-    padding-bottom: 10px;
+    display: inline-block;
 }
 
 .categoryButton {
@@ -93,7 +83,7 @@
     padding: 5px;
     border: solid #000000;
     border-width: 0 2px 2px 0;
-    display: inline-block;
+    display:inline-block;
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
     cursor: pointer;
@@ -151,7 +141,6 @@
 
 .userCategory {
     display: inline-block;
-    margin-left: 25px;
     margin-top: 4.1%;
 }
 
@@ -189,8 +178,6 @@
     -webkit-text-stroke: 1px background-color;
     
     cursor: pointer;
-
-    height: 35px;
     
     margin-top: 27%;
 }

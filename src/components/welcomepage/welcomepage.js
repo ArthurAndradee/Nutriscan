@@ -30,12 +30,12 @@ function WelcomePage() {
       <div className='page'>
         <nav className='headerNav'>
           <header className='mainHeader'>
-          <nav className='companyTitle'>
-            <img className='companyIcon'
+          <div className='companyTitle'>
+            {<img className='companyIcon'
             src='https://i.imgur.com/v52Jw20.png'
-            />
-          </nav>
-          <nav className='navBar'>
+            />}
+          </div>
+          <div className='navBar'>
             <ul>
               <li className='navCategory'>
                 <div className='categoryBox'>
@@ -85,7 +85,7 @@ function WelcomePage() {
                 </div>
               </li>
             </ul>
-          </nav>
+          </div>
           <div className='userBar'>
               <ul>
                 <li className='userCategory'>
