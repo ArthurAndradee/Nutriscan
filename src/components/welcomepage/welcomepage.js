@@ -38,10 +38,11 @@ function WelcomePage() {
           <div className='navBar'>
             <ul>
               <li className='navCategory'>
-                <div className='categoryBox'>
+                <a className='categoryBox'  href=''>
                   <h4 className='categoryTitle'>Carboidratos</h4>
                   <div className='categoryButton'></div>
-                </div>
+                </a>
+                <div className="invisibleBorder"></div>
                 <div className='dropdownMenu'>
                   <a href='' className='categoryDropdown'>Naturais</a>
                   <a href='' className='categoryDropdown'>Processados</a>
@@ -53,6 +54,7 @@ function WelcomePage() {
                   <h4 className='categoryTitle'>Proteínas</h4>
                   <div className='categoryButton'></div>
                 </a>
+                <div className="invisibleBorder"></div>
                 <div className='dropdownMenu'>
                   <a href='' className='categoryDropdown'>Carnes vermelhas</a>
                   <a href='' className='categoryDropdown'>Carnes brancas</a>
@@ -65,6 +67,7 @@ function WelcomePage() {
                   <h4 className='categoryTitle'>Gorduras</h4>
                   <div className='categoryButton'></div>
                 </a>
+                <div className="invisibleBorder"></div>
                 <div className='dropdownMenu'>
                   <a href='' className='categoryDropdown'>Naturais</a>
                   <a href='' className='categoryDropdown'>Suplementos</a>
@@ -76,6 +79,7 @@ function WelcomePage() {
                   <h4 className='categoryTitle'>Bebidas</h4>
                   <div className='categoryButton'></div>
                 </a>
+                <div className="invisibleBorder"></div>
                 <div className='dropdownMenu'>
                   <a href='' className='categoryDropdown'>Naturais</a>
                   <a href='' className='categoryDropdown'>Alcólicas</a>
@@ -184,12 +188,30 @@ function WelcomePage() {
           <div className='foodContainer'>
             <div className='foodSection'>
               <div className='foodBar' id='foodBar-1'>
-                <div>AAA</div>
-                <div>AAA</div>
-                <div>AAA</div>
-                <div>AAA</div>
-                <div>AAA</div>
-                <div>AAA</div>
+                <div>
+                <img src="https://w7.pngwing.com/pngs/257/676/png-transparent-nachos-doritos-tortilla-chip-potato-chip-cheese-cheese.png" 
+                  alt="Smiley face" width="100" height="75" style={{marginTop:"6%"}}/>
+                </div>
+                <div>
+                <img src="https://docesvaz.vtexassets.com/arquivos/ids/156692-800-auto?v=637982379382500000&width=800&height=auto&aspect=true" 
+                  alt="Smiley face" width="140" height="70" style={{marginTop:"7%"}}/>
+                </div>
+                <div>
+                <img src="https://static.paodeacucar.com/img/uploads/1/349/607349.png" 
+                  alt="Smiley face" width="120" height="105" style={{marginTop:"0%"}}/>
+                </div>
+                <div>
+                <img src="https://storage.googleapis.com/phygital_files/comercial-big-oferta/uploads/produto/salsicha_kg_80020e5b-505f-4a34-a59f-31cbc0b1a5ce.png" 
+                  alt="Smiley face" width="120" height="69" style={{marginTop:"8%"}}/>
+                </div>
+                <div>
+                <img src="https://c1.klipartz.com/pngpicture/621/124/sticker-png-forest-mettwurst-ham-mortadella-bayonne-ham-bacon-bresaola-sausage-thumbnail.png" 
+                  alt="Smiley face" width="120" height="84" style={{marginTop:"5%"}}/>
+                </div>
+                <div>
+                <img src="https://banner2.cleanpng.com/20180606/gux/kisspng-chocolate-bar-protein-bar-energy-bar-the-gatorade-protein-bar-5b177b4f0d7916.9772072215282655510552.jpg" 
+                  alt="Smiley face" width="130" height="70" style={{marginTop:"5%"}}/>
+                </div>
                 <a className='nextArrow' href='#foodBar-2'>
                   <FontAwesomeIcon className='arrowIcon' icon={faChevronRight} />
                 </a>

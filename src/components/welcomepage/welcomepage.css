@@ -57,7 +57,7 @@
 }
 
 .categoryBox:hover {
-    color: #15bf7b;
+    color: #2abd6f;
 }
 
 .categoryTitle {
@@ -93,7 +93,7 @@
     transition: all 350ms;
     rotate: 180deg;
 
-    margin-top: 6%;
+    margin-top: 5%;
 
     border: solid #00b26b;
     border-width: 0 2px 2px 0;
@@ -105,7 +105,8 @@
     width: 140px;
     background-color: #ffffff;
     box-shadow: 0 0 2px #000000;
-    
+
+
     padding-top: 7px;
     padding-bottom: 15px;
     border-radius: 15px;
@@ -122,6 +123,15 @@
     font-weight: 600;
 
     color: #2abd6f;
+}
+
+.invisibleBorder {
+    width: 25px;
+    height: 10px;
+}
+
+.invisibleBorder:hover .dropdownMenu {
+    display: block;
 }
 
 .navCategory:hover .dropdownMenu {
@@ -414,4 +424,12 @@
 
 #foodBar-1, #foodBar-5, #foodBar-9 {
     margin: 0;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    cursor: pointer;
 }
