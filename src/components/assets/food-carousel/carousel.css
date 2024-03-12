@@ -1,0 +1,80 @@
+.foodContainer {
+    position: relative;
+
+    margin-left: 1%;
+}
+
+.foodSection, 
+.foodBar {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.foodSection {
+    grid-auto-columns: 100%;
+    scroll-behavior: smooth;
+    overflow: hidden; 
+}
+
+.foodBar {
+    grid-auto-columns: 1fr;
+
+    margin-left: 70px;
+}
+
+.foodBar div {
+    height: 100px;
+    width: 100%;
+    
+    background-color: #f1f1f1;
+    
+    border-radius: 20px;
+}
+
+.nextArrow, 
+.previousArrow {
+    display: none;
+    z-index: 10;
+    position: absolute;
+    align-items: center;
+    
+    font-size: 15px;
+    color: #000000;
+
+    margin-top: 35px;
+
+    background-color: #ffffff;
+    border: 1px solid #d3d3d3;
+    border-radius: 25px;
+
+    width: 30px;
+    height: 30px;
+}
+
+.previousArrow {
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.nextArrow {
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.arrowIcon {
+    margin-left: 10px;
+}
+
+.foodBar:target :where(.nextArrow, .previousArrow) {
+    display: flex;
+}
+
+.foodBar:first-child :where(.nextArrow, .previousArrow) {
+    display: flex;
+}
+
+#foodBar-1, #foodBar-5, #foodBar-9 {
+    margin: 0;
+}
