@@ -14,7 +14,7 @@ function Header() {
         <nav className='headerNav'>
           <header className='mainHeader'>
           <div className='companyTitle'>
-            {<img className='companyIcon'
+            {<img alt="Company logo" className='companyIcon'
             src='https://i.imgur.com/v52Jw20.png'
             />}
           </div>

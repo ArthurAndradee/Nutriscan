@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden
+}
+
+.page {
+    height: 100vh;
+
+    background-color: #f1f1f1;
+}
+
+.foodCard {
+    margin-top: 4.5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 4.5%;
+
+    width: 70%;
+    height: 50%;
+
+    border-radius: 25px;
+    
+    background-color: #FFFFFF;
+}
+
+.foodPhoto {
+    margin-top: 2.2%;
+    margin-left: 2.6%;
+
+    width: 30%;
+    height: 90%;
+
+    border-radius: 25px;
+    
+    background-color: #F1F1F1;
+    display: inline-block;
+}
+
+.foodDescription {
+    margin-left: 2.6%;
+    margin-bottom: 2.5%;
+
+    width: 60%;
+    height: 77%;
+
+    font-size: 23px;
+
+    display: inline-block;
+    border: 1px solid red;
+}

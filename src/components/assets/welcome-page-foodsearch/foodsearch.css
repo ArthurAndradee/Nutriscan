@@ -1,0 +1,145 @@
+.mainSection {
+    height: 270px;
+    width: 98vw;
+
+    margin-top: 10px;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    margin-bottom: 1%;
+
+    background: #01af4c;
+    background: linear-gradient(90deg, #01af4c 36%, rgba(0,82,71,1) 90%);
+    
+    border-radius: 20px;
+
+    text-align:center;
+}
+
+.mainSectionTitle {
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    font-size: 35px;
+    color: #ffffff;
+
+    font-weight: 409;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    cursor: default;
+}
+
+.mainSectionTitle:after {
+    content: ' .';
+    animation: dots 1s steps(5, end) infinite;}
+  
+  @keyframes dots {
+    0%, 20% {
+      color: #00000000;
+      text-shadow:
+        .25em 0 0 #00000000,
+        .5em 0 0 #00000000;}
+    40% {
+      color: #ffffff;
+      text-shadow:
+        .25em 0 0 #00000000,
+        .5em 0 0 #00000000;}
+    60% {
+      text-shadow:
+        .25em 0 0 #ffffff,
+        .5em 0 0 #00000000;}
+    80%, 100% {
+      text-shadow:
+        .25em 0 0 #ffffff,
+        .5em 0 0 #ffffff;}}
+  
+
+.inputDiv{
+    height: 45px;
+    width: 98vw;
+
+    justify-content: center;
+    display: flex;
+}
+
+.submitButton {
+    height: 45px;
+    width: 50px;
+      
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+
+    background: #ffffff;
+    
+    box-shadow: 0px 0px 2px 0px #000000;
+
+    cursor: pointer;
+}
+
+
+.mainSectionInput { 
+    height: 45px;
+    width: 600px;
+  
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+  
+    color:#000000;
+  
+    background: #ffffff;
+    border: none;
+    padding: 0;
+    outline: inherit;
+  
+    text-indent: 4px;
+    font-size: 20px;
+}
+
+.mainSectionInput::placeholder {
+    font-size: 18px;
+    color: #929292;
+  }
+
+.mainSectionButtons {
+    height: 100px;
+    width: 100%;
+
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.mainSectionButtons a {
+    height: 44px;
+}
+
+.foodButton {
+    height: 42px;
+    width: 42px;
+
+    background-color: #ffffff;
+    color: #01af4c;
+
+    border: none;
+    border-radius: 30px;
+    padding: 0px 0px;
+    
+    font-size: 23px;
+    cursor: pointer;
+
+    transition: all 350ms;
+}
+
+.mainSectionButtons a:hover .foodButton {
+    transition: all 350ms;
+
+    background-color: #01af4c;
+    color: #ffffff;
+}
+
+.foodName {
+    color: #FFFFFF;
+    margin-top: 10%;
+
+    font-size: 90%;
+}

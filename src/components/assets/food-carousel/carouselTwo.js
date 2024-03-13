@@ -10,7 +10,7 @@ function CarouselTwo() {
 
         <div>
             <h2 className='foodSectionTitle'>
-              Naturais
+              Relacionados
             </h2>
             <div className='foodContainer'>
               <div className='foodSection'>

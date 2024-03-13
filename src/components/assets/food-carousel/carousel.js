@@ -9,7 +9,7 @@ function Carousel() {
     return (
         <div>
         <h2 className='foodSectionTitle'>
-          Ultraprocessados
+          Relacionados
         </h2>
         <div className='foodContainer'>
           <div className='foodSection'>
