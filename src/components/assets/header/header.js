@@ -21,54 +21,54 @@ function Header() {
           <div className='navBar'>
             <ul>
               <li className='navCategory'>
-                <a className='categoryBox'  href=''>
+                <a className='categoryBox'  href='../foodPage/food.js'>
                   <h4 className='categoryTitle'>Carboidratos</h4>
                   <div className='categoryButton'></div>
                 </a>
                 <div className="invisibleBorder"></div>
                 <div className='dropdownMenu'>
-                  <a href='' className='categoryDropdown'>Naturais</a>
-                  <a href='' className='categoryDropdown'>Processados</a>
-                  <a href='' className='categoryDropdown'>Ultraprocessados</a>
+                  <a href='../foodPage/food.js' className='categoryDropdown'>Naturais</a>
+                  <a href='../foodPage/food.js' className='categoryDropdown'>Processados</a>
+                  <a href='../foodPage/food.js' className='categoryDropdown'>Ultraprocessados</a>
                 </div>
               </li>
               <li className='navCategory'>
-                <a className='categoryBox' href=''>
+                <a className='categoryBox' href='../foodPage/food.js'>
                   <h4 className='categoryTitle'>Proteínas</h4>
                   <div className='categoryButton'></div>
                 </a>
                 <div className="invisibleBorder"></div>
                 <div className='dropdownMenu'>
-                  <a href='' className='categoryDropdown'>Carnes vermelhas</a>
-                  <a href='' className='categoryDropdown'>Carnes brancas</a>
-                  <a href='' className='categoryDropdown'>Peixes</a>
-                  <a href='' className='categoryDropdown'>Outros</a>
+                  <a href='../foodPage/food.js' className='categoryDropdown'>Carnes vermelhas</a>
+                  <a href='../foodPage/food.js' className='categoryDropdown'>Carnes brancas</a>
+                  <a href='../foodPage/food.js' className='categoryDropdown'>Peixes</a>
+                  <a href='../foodPage/food.js' className='categoryDropdown'>Outros</a>
                 </div>
               </li>
               <li className='navCategory'>
-                <a className='categoryBox' href=''>
+                <a className='categoryBox' href='../foodPage/food.js'>
                   <h4 className='categoryTitle'>Gorduras</h4>
                   <div className='categoryButton'></div>
                 </a>
                 <div className="invisibleBorder"></div>
                 <div className='dropdownMenu'>
-                  <a href='' className='categoryDropdown'>Naturais</a>
-                  <a href='' className='categoryDropdown'>Suplementos</a>
-                  <a href='' className='categoryDropdown'>Caseiras</a>
+                  <a href='../foodPage/food.js' className='categoryDropdown'>Naturais</a>
+                  <a href='../foodPage/food.js' className='categoryDropdown'>Suplementos</a>
+                  <a href='../foodPage/food.js' className='categoryDropdown'>Caseiras</a>
                 </div>
               </li>
               <li className='navCategory'>
-                <a className='categoryBox' href=''>
+                <a className='categoryBox' href='../foodPage/food.js'>
                   <h4 className='categoryTitle'>Bebidas</h4>
                   <div className='categoryButton'></div>
                 </a>
                 <div className="invisibleBorder"></div>
                 <div className='dropdownMenu'>
-                  <a href='' className='categoryDropdown'>Naturais</a>
-                  <a href='' className='categoryDropdown'>Alcólicas</a>
-                  <a href='' className='categoryDropdown'>Estimulantes</a>
-                  <a href='' className='categoryDropdown'>Processadas</a>
-                  <a href='' className='categoryDropdown'>Ultrarocessadas</a>
+                  <a href='../foodPage/food.js' className='categoryDropdown'>Naturais</a>
+                  <a href='../foodPage/food.js' className='categoryDropdown'>Alcólicas</a>
+                  <a href='../foodPage/food.js' className='categoryDropdown'>Estimulantes</a>
+                  <a href='../foodPage/food.js' className='categoryDropdown'>Processadas</a>
+                  <a href='../foodPage/food.js' className='categoryDropdown'>Ultrarocessadas</a>
                 </div>
               </li>
             </ul>
@@ -76,7 +76,7 @@ function Header() {
           <div className='userBar'>
               <ul>
                 <li className='userCategory'>
-                  <div href='' className='navIcon'>
+                  <div href='../foodPage/food.js' className='navIcon'>
                     <FontAwesomeIcon icon={faCircleUser} onClick={openUserOptions}/>
                   </div>
                   { showUserOptions ? 
@@ -84,10 +84,10 @@ function Header() {
                   </div>
                   :
                   <div className='dropdownUser'>
-                    <a href='' className='categoryDropdown'>Opções</a> 
-                    <a href='' className='categoryDropdown'>Favoritos</a>
-                    <a href='' className='categoryDropdown'>Notificações</a> 
-                    <a href='' className='categoryDropdown'>Sair</a> 
+                    <a href='../foodPage/food.js' className='categoryDropdown'>Opções</a> 
+                    <a href='../foodPage/food.js' className='categoryDropdown'>Favoritos</a>
+                    <a href='../foodPage/food.js' className='categoryDropdown'>Notificações</a> 
+                    <a href='../foodPage/food.js' className='categoryDropdown'>Sair</a> 
                   </div>}
                 </li>
               </ul>

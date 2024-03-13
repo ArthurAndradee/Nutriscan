@@ -1,14 +1,14 @@
 //import Login from './components/login/login';
 //import Signup from "./components/signup/signup";
-// import WelcomePage from "./components/welcomepage/welcomepage";
+import WelcomePage from "./components/welcomepage/welcomepage";
 
-import FoodPage from "./components/foodPage/food";
+import FoodPage from "./components/assets/foodPage/food";
 
 
 function App() {
   return (
     <div>
-      <FoodPage />
+      <WelcomePage />
     </div>
   );
 }
